@@ -1,0 +1,6 @@
+D:\WoW Resources\Spell-Editor-GUI-V2\PlayerClassStatDBCUtil\bin\Debug\PlayerClassStatDBCUtil.exe.config
+D:\WoW Resources\Spell-Editor-GUI-V2\PlayerClassStatDBCUtil\obj\Debug\PlayerClassStatDBCUtil.csprojResolveAssemblyReference.cache
+D:\WoW Resources\Spell-Editor-GUI-V2\PlayerClassStatDBCUtil\bin\Debug\PlayerClassStatDBCUtil.exe
+D:\WoW Resources\Spell-Editor-GUI-V2\PlayerClassStatDBCUtil\bin\Debug\PlayerClassStatDBCUtil.pdb
+D:\WoW Resources\Spell-Editor-GUI-V2\PlayerClassStatDBCUtil\obj\Debug\PlayerClassStatDBCUtil.exe
+D:\WoW Resources\Spell-Editor-GUI-V2\PlayerClassStatDBCUtil\obj\Debug\PlayerClassStatDBCUtil.pdb
