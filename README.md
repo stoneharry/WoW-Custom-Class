@@ -74,3 +74,5 @@ At this point I wanted to level myself up to test the talent and achievement fra
 
 To be able to speak and perform basic actions you need to have the right spells and skills. Some of these are hidden client side but neccessary server side. Time to get these off a existing class, but first I need to figure out where this data is coming from.
 
+Last time I had to do something similar I hacked it by adding in some fixed server side structure and adding that: https://github.com/stoneharry/ZombiesProjectEmulator/commit/6ea7daf10d123f24fc1a960e474d8c43b4b3d1c8
+
