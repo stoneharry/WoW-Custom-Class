@@ -76,3 +76,17 @@ To be able to speak and perform basic actions you need to have the right spells 
 
 Last time I had to do something similar I hacked it by adding in some fixed server side structure and adding that: https://github.com/stoneharry/ZombiesProjectEmulator/commit/6ea7daf10d123f24fc1a960e474d8c43b4b3d1c8
 
+## 2019-01-15 ##
+
+So I found out that the starting spells are contained in `SkillLineAbility.dbc`. Again, I don't want to be handling these files manually so I have started writing a little program to automate this task.
+
+First step is making sure I can read and write the file back without impacting the integrity of the file.
+
+![File hash of read/writing DBC](https://i.imgur.com/r6F5TPt.png)
+
+Then input some very basic text controls to read and write data:
+
+![Writing new SkillLineAbility.dbc data](https://i.imgur.com/xu1U0er.png)
+
+Unfortunately I leave it here for today, I only have limited time after work.
+
