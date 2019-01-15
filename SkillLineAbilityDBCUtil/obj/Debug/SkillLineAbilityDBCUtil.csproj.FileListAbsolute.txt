@@ -1,0 +1,7 @@
+C:\Users\Harry_\Desktop\WoW-Custom-Class\SkillLineAbilityDBCUtil\bin\Debug\PlayerClassStatDBCUtil.exe.config
+C:\Users\Harry_\Desktop\WoW-Custom-Class\SkillLineAbilityDBCUtil\bin\Debug\PlayerClassStatDBCUtil.exe
+C:\Users\Harry_\Desktop\WoW-Custom-Class\SkillLineAbilityDBCUtil\bin\Debug\PlayerClassStatDBCUtil.pdb
+C:\Users\Harry_\Desktop\WoW-Custom-Class\SkillLineAbilityDBCUtil\obj\Debug\SkillLineAbilityDBCUtil.csprojAssemblyReference.cache
+C:\Users\Harry_\Desktop\WoW-Custom-Class\SkillLineAbilityDBCUtil\obj\Debug\SkillLineAbilityDBCUtil.csproj.CoreCompileInputs.cache
+C:\Users\Harry_\Desktop\WoW-Custom-Class\SkillLineAbilityDBCUtil\obj\Debug\PlayerClassStatDBCUtil.exe
+C:\Users\Harry_\Desktop\WoW-Custom-Class\SkillLineAbilityDBCUtil\obj\Debug\PlayerClassStatDBCUtil.pdb
