@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="AbstractDBC.cs" />
     <Compile Include="DBCReader.cs" />
+    <Compile Include="SkillRaceClassInfoDBC.cs" />
+    <Compile Include="SpellDBC.cs" />
     <Compile Include="SkillLineAbilityDBC.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

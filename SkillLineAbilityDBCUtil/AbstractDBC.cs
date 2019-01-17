@@ -17,6 +17,8 @@ namespace SpellEditor.Sources.DBC
             Reader.ReadStringBlock();
         }
 
+        public string LookupStringOffset(uint offset) => Reader.LookupStringOffset(offset);
+
         public Dictionary<string, object> LookupRecord(uint ID) => LookupRecord(ID, "ID");
         public Dictionary<string, object> LookupRecord(uint ID, string IDKey)
         {

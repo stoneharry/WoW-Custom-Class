@@ -1,0 +1,4565 @@
+Reading mask 1 and writing a copy as mask 1024...
+Processing SkillLineAbility.dbc...
+Read 318 records. Writing as new class mask 1024 starting with id 21980...
+Done. New max records: 22298
+Processing SkillRaceClassInfo...
+Read 117 records. Writing as new class mask 1024 starting with id 22298...
+Done. New max records: 22415
+rPoints2]: 0
+Count found 2 ------------------
+[]: 
+[Id]: 3395
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 1752
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 1757
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 3 ------------------
+[]: 
+[Id]: 3396
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 1757
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 1758
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 4 ------------------
+[]: 
+[Id]: 3397
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 1758
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 1759
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 5 ------------------
+[]: 
+[Id]: 3398
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 1759
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 1760
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 6 ------------------
+[]: 
+[Id]: 3399
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 1760
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 8621
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 7 ------------------
+[]: 
+[Id]: 4769
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 8621
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 11293
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 8 ------------------
+[]: 
+[Id]: 4781
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 1766
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 1767
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 9 ------------------
+[]: 
+[Id]: 5936
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 11293
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 11294
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 10 ------------------
+[]: 
+[Id]: 5937
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 11294
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 26861
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 11 ------------------
+[]: 
+[Id]: 6367
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 53
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 2589
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 12 ------------------
+[]: 
+[Id]: 6368
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 2589
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 2590
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 13 ------------------
+[]: 
+[Id]: 6369
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 2590
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 2591
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 14 ------------------
+[]: 
+[Id]: 6370
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 2591
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 8721
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 15 ------------------
+[]: 
+[Id]: 6371
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 8721
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 11279
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 16 ------------------
+[]: 
+[Id]: 6372
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 11279
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 11280
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 17 ------------------
+[]: 
+[Id]: 6373
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 11280
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 11281
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 18 ------------------
+[]: 
+[Id]: 6374
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 11281
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 25300
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 19 ------------------
+[]: 
+[Id]: 6375
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 1966
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 6768
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 20 ------------------
+[]: 
+[Id]: 6376
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 6768
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 8637
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 21 ------------------
+[]: 
+[Id]: 6377
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 8637
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 11303
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 22 ------------------
+[]: 
+[Id]: 6378
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 11303
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 25302
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 23 ------------------
+[]: 
+[Id]: 6379
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 5277
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 26669
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 24 ------------------
+[]: 
+[Id]: 7638
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 2983
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 8696
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 25 ------------------
+[]: 
+[Id]: 7639
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 8696
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 11305
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 26 ------------------
+[]: 
+[Id]: 7640
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 11305
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 27 ------------------
+[]: 
+[Id]: 12039
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 21184
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 28 ------------------
+[]: 
+[Id]: 13238
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 25300
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 26863
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 29 ------------------
+[]: 
+[Id]: 13239
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 25302
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 27448
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 30 ------------------
+[]: 
+[Id]: 13461
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 5938
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 31 ------------------
+[]: 
+[Id]: 13542
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 26669
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 32 ------------------
+[]: 
+[Id]: 13707
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 26861
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 26862
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 33 ------------------
+[]: 
+[Id]: 13708
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 26862
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48637
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 34 ------------------
+[]: 
+[Id]: 13709
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 26863
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48656
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 35 ------------------
+[]: 
+[Id]: 13710
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 27448
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48658
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 36 ------------------
+[]: 
+[Id]: 14503
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 31124
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 37 ------------------
+[]: 
+[Id]: 14504
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 31126
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 38 ------------------
+[]: 
+[Id]: 14508
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 31125
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 39 ------------------
+[]: 
+[Id]: 14509
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 31122
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 40 ------------------
+[]: 
+[Id]: 14510
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 31123
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 41 ------------------
+[]: 
+[Id]: 14894
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 32601
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 42 ------------------
+[]: 
+[Id]: 15032
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 31130
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 43 ------------------
+[]: 
+[Id]: 15033
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 31131
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 44 ------------------
+[]: 
+[Id]: 15514
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 35541
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 45 ------------------
+[]: 
+[Id]: 15515
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 35550
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 46 ------------------
+[]: 
+[Id]: 15516
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 35551
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 47 ------------------
+[]: 
+[Id]: 15517
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 35552
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 48 ------------------
+[]: 
+[Id]: 15518
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 35553
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 49 ------------------
+[]: 
+[Id]: 16670
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 48637
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48638
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 50 ------------------
+[]: 
+[Id]: 16671
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 48638
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 51 ------------------
+[]: 
+[Id]: 16675
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 48656
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48657
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 52 ------------------
+[]: 
+[Id]: 16676
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 48657
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 53 ------------------
+[]: 
+[Id]: 16677
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 48658
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48659
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 54 ------------------
+[]: 
+[Id]: 16678
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 48659
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 55 ------------------
+[]: 
+[Id]: 17716
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 51672
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 56 ------------------
+[]: 
+[Id]: 17717
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 51674
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 57 ------------------
+[]: 
+[Id]: 17718
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 51675
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 58 ------------------
+[]: 
+[Id]: 17719
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 51677
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 59 ------------------
+[]: 
+[Id]: 17720
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 5952
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 60 ------------------
+[]: 
+[Id]: 17721
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 51679
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 61 ------------------
+[]: 
+[Id]: 17722
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 51680
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 62 ------------------
+[]: 
+[Id]: 17723
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 51682
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 63 ------------------
+[]: 
+[Id]: 17726
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 51685
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 64 ------------------
+[]: 
+[Id]: 17727
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 51686
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 65 ------------------
+[]: 
+[Id]: 17728
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 51687
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 66 ------------------
+[]: 
+[Id]: 17729
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 51688
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 67 ------------------
+[]: 
+[Id]: 17730
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 51689
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 68 ------------------
+[]: 
+[Id]: 17731
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 51690
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 69 ------------------
+[]: 
+[Id]: 17750
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 51723
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 70 ------------------
+[]: 
+[Id]: 19980
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 14165
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 71 ------------------
+[]: 
+[Id]: 19981
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 14166
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 72 ------------------
+[]: 
+[Id]: 19986
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 58413
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 73 ------------------
+[]: 
+[Id]: 20622
+[SkillLineDbcRecord]: 38
+[SpellDbcRecord]: 61329
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 74 ------------------
+[]: 
+[Id]: 3276
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 1725
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 75 ------------------
+[]: 
+[Id]: 3965
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 2094
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 76 ------------------
+[]: 
+[Id]: 6360
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 921
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 77 ------------------
+[]: 
+[Id]: 6361
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 1784
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 1785
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 78 ------------------
+[]: 
+[Id]: 6365
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 1856
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 1857
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 79 ------------------
+[]: 
+[Id]: 6366
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 1857
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 26889
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 80 ------------------
+[]: 
+[Id]: 6383
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 6770
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 2070
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 81 ------------------
+[]: 
+[Id]: 6384
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 2070
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 11297
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 82 ------------------
+[]: 
+[Id]: 6385
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 11297
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 51724
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 83 ------------------
+[]: 
+[Id]: 7822
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 14278
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 84 ------------------
+[]: 
+[Id]: 7914
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 2836
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 85 ------------------
+[]: 
+[Id]: 8055
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 1842
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 86 ------------------
+[]: 
+[Id]: 9116
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 16511
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 17347
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 87 ------------------
+[]: 
+[Id]: 9856
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 17347
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 17348
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 88 ------------------
+[]: 
+[Id]: 9857
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 17348
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 26864
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 89 ------------------
+[]: 
+[Id]: 11739
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 1860
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 90 ------------------
+[]: 
+[Id]: 13717
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 26889
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 91 ------------------
+[]: 
+[Id]: 14575
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 31211
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 92 ------------------
+[]: 
+[Id]: 14576
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 31212
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 93 ------------------
+[]: 
+[Id]: 14577
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 31213
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 94 ------------------
+[]: 
+[Id]: 14580
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 31216
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 95 ------------------
+[]: 
+[Id]: 14581
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 31217
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 96 ------------------
+[]: 
+[Id]: 14582
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 31218
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 97 ------------------
+[]: 
+[Id]: 14583
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 31219
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 98 ------------------
+[]: 
+[Id]: 14584
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 31220
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 99 ------------------
+[]: 
+[Id]: 14585
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 31221
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 100 ------------------
+[]: 
+[Id]: 14586
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 31222
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 101 ------------------
+[]: 
+[Id]: 14587
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 31223
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 102 ------------------
+[]: 
+[Id]: 14588
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 31224
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 103 ------------------
+[]: 
+[Id]: 14609
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 31228
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 104 ------------------
+[]: 
+[Id]: 14610
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 31229
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 105 ------------------
+[]: 
+[Id]: 14611
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 31230
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 106 ------------------
+[]: 
+[Id]: 14789
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 26864
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48660
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 107 ------------------
+[]: 
+[Id]: 15687
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 36554
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 108 ------------------
+[]: 
+[Id]: 16679
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 48660
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 109 ------------------
+[]: 
+[Id]: 17732
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 51692
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 110 ------------------
+[]: 
+[Id]: 17733
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 51696
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 111 ------------------
+[]: 
+[Id]: 17734
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 51693
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 112 ------------------
+[]: 
+[Id]: 17735
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 51698
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 113 ------------------
+[]: 
+[Id]: 17736
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 51700
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 114 ------------------
+[]: 
+[Id]: 17737
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 51701
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 115 ------------------
+[]: 
+[Id]: 17738
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 51699
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 116 ------------------
+[]: 
+[Id]: 17743
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 51708
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 117 ------------------
+[]: 
+[Id]: 17744
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 51709
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 118 ------------------
+[]: 
+[Id]: 17745
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 51710
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 119 ------------------
+[]: 
+[Id]: 17746
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 51711
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 120 ------------------
+[]: 
+[Id]: 17747
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 51712
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 121 ------------------
+[]: 
+[Id]: 17748
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 51713
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 122 ------------------
+[]: 
+[Id]: 17751
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 51724
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 123 ------------------
+[]: 
+[Id]: 19962
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 57934
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 124 ------------------
+[]: 
+[Id]: 19963
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 57933
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 125 ------------------
+[]: 
+[Id]: 19987
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 58414
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 126 ------------------
+[]: 
+[Id]: 19988
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 58415
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 127 ------------------
+[]: 
+[Id]: 19989
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 14179
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 128 ------------------
+[]: 
+[Id]: 19990
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 58422
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 129 ------------------
+[]: 
+[Id]: 19991
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 58423
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 130 ------------------
+[]: 
+[Id]: 19992
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 58424
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 131 ------------------
+[]: 
+[Id]: 19993
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 58425
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 132 ------------------
+[]: 
+[Id]: 19994
+[SkillLineDbcRecord]: 39
+[SpellDbcRecord]: 14181
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 133 ------------------
+[]: 
+[Id]: 252
+[SkillLineDbcRecord]: 43
+[SpellDbcRecord]: 201
+[RaceMask]: 0
+[ClassMask]: 431
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 134 ------------------
+[]: 
+[Id]: 248
+[SkillLineDbcRecord]: 44
+[SpellDbcRecord]: 196
+[RaceMask]: 0
+[ClassMask]: 111
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 135 ------------------
+[]: 
+[Id]: 246
+[SkillLineDbcRecord]: 45
+[SpellDbcRecord]: 264
+[RaceMask]: 0
+[ClassMask]: 13
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 136 ------------------
+[]: 
+[Id]: 15696
+[SkillLineDbcRecord]: 45
+[SpellDbcRecord]: 3018
+[RaceMask]: 0
+[ClassMask]: 9
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 1
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 137 ------------------
+[]: 
+[Id]: 251
+[SkillLineDbcRecord]: 46
+[SpellDbcRecord]: 266
+[RaceMask]: 0
+[ClassMask]: 13
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 138 ------------------
+[]: 
+[Id]: 15695
+[SkillLineDbcRecord]: 46
+[SpellDbcRecord]: 3018
+[RaceMask]: 0
+[ClassMask]: 9
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 1
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 139 ------------------
+[]: 
+[Id]: 254
+[SkillLineDbcRecord]: 54
+[SpellDbcRecord]: 198
+[RaceMask]: 0
+[ClassMask]: 1147
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 140 ------------------
+[]: 
+[Id]: 2201
+[SkillLineDbcRecord]: 95
+[SpellDbcRecord]: 3127
+[RaceMask]: 0
+[ClassMask]: 15
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 141 ------------------
+[]: 
+[Id]: 13068
+[SkillLineDbcRecord]: 95
+[SpellDbcRecord]: 16092
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 142 ------------------
+[]: 
+[Id]: 610
+[SkillLineDbcRecord]: 118
+[SpellDbcRecord]: 674
+[RaceMask]: 0
+[ClassMask]: 109
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 143 ------------------
+[]: 
+[Id]: 11708
+[SkillLineDbcRecord]: 125
+[SpellDbcRecord]: 20572
+[RaceMask]: 2
+[ClassMask]: 45
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 144 ------------------
+[]: 
+[Id]: 12041
+[SkillLineDbcRecord]: 125
+[SpellDbcRecord]: 21563
+[RaceMask]: 2
+[ClassMask]: 1179
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 145 ------------------
+[]: 
+[Id]: 20665
+[SkillLineDbcRecord]: 126
+[SpellDbcRecord]: 21009
+[RaceMask]: 8
+[ClassMask]: 1085
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 146 ------------------
+[]: 
+[Id]: 1839
+[SkillLineDbcRecord]: 129
+[SpellDbcRecord]: 3276
+[RaceMask]: 0
+[ClassMask]: 1503
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 100
+[TrivialSkillLineRankLow]: 50
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 147 ------------------
+[]: 
+[Id]: 1840
+[SkillLineDbcRecord]: 129
+[SpellDbcRecord]: 3277
+[RaceMask]: 0
+[ClassMask]: 1503
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 150
+[TrivialSkillLineRankLow]: 80
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 148 ------------------
+[]: 
+[Id]: 1841
+[SkillLineDbcRecord]: 129
+[SpellDbcRecord]: 3278
+[RaceMask]: 0
+[ClassMask]: 1503
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 185
+[TrivialSkillLineRankLow]: 115
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 149 ------------------
+[]: 
+[Id]: 4414
+[SkillLineDbcRecord]: 129
+[SpellDbcRecord]: 7928
+[RaceMask]: 0
+[ClassMask]: 1503
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 210
+[TrivialSkillLineRankLow]: 150
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 150 ------------------
+[]: 
+[Id]: 4415
+[SkillLineDbcRecord]: 129
+[SpellDbcRecord]: 7929
+[RaceMask]: 0
+[ClassMask]: 1503
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 240
+[TrivialSkillLineRankLow]: 180
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 151 ------------------
+[]: 
+[Id]: 4417
+[SkillLineDbcRecord]: 129
+[SpellDbcRecord]: 7934
+[RaceMask]: 0
+[ClassMask]: 1503
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 150
+[TrivialSkillLineRankLow]: 80
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 152 ------------------
+[]: 
+[Id]: 5766
+[SkillLineDbcRecord]: 129
+[SpellDbcRecord]: 10846
+[RaceMask]: 0
+[ClassMask]: 1503
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 27028
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 153 ------------------
+[]: 
+[Id]: 5767
+[SkillLineDbcRecord]: 129
+[SpellDbcRecord]: 10840
+[RaceMask]: 0
+[ClassMask]: 1503
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 270
+[TrivialSkillLineRankLow]: 210
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 154 ------------------
+[]: 
+[Id]: 5768
+[SkillLineDbcRecord]: 129
+[SpellDbcRecord]: 10841
+[RaceMask]: 0
+[ClassMask]: 1503
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 300
+[TrivialSkillLineRankLow]: 240
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 155 ------------------
+[]: 
+[Id]: 10488
+[SkillLineDbcRecord]: 129
+[SpellDbcRecord]: 18629
+[RaceMask]: 0
+[ClassMask]: 1503
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 320
+[TrivialSkillLineRankLow]: 260
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 156 ------------------
+[]: 
+[Id]: 10489
+[SkillLineDbcRecord]: 129
+[SpellDbcRecord]: 18630
+[RaceMask]: 0
+[ClassMask]: 1503
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 350
+[TrivialSkillLineRankLow]: 290
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 157 ------------------
+[]: 
+[Id]: 1387
+[SkillLineDbcRecord]: 173
+[SpellDbcRecord]: 1180
+[RaceMask]: 0
+[ClassMask]: 1501
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 158 ------------------
+[]: 
+[Id]: 20867
+[SkillLineDbcRecord]: 183
+[SpellDbcRecord]: 63645
+[RaceMask]: 4095
+[ClassMask]: 1535
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 159 ------------------
+[]: 
+[Id]: 20868
+[SkillLineDbcRecord]: 183
+[SpellDbcRecord]: 63644
+[RaceMask]: 4095
+[ClassMask]: 1535
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 160 ------------------
+[]: 
+[Id]: 15855
+[SkillLineDbcRecord]: 202
+[SpellDbcRecord]: 41317
+[RaceMask]: 0
+[ClassMask]: 1032
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 390
+[TrivialSkillLineRankLow]: 370
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 161 ------------------
+[]: 
+[Id]: 16256
+[SkillLineDbcRecord]: 202
+[SpellDbcRecord]: 46116
+[RaceMask]: 0
+[ClassMask]: 1032
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 430
+[TrivialSkillLineRankLow]: 390
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 162 ------------------
+[]: 
+[Id]: 19588
+[SkillLineDbcRecord]: 202
+[SpellDbcRecord]: 56481
+[RaceMask]: 0
+[ClassMask]: 1032
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 460
+[TrivialSkillLineRankLow]: 450
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 163 ------------------
+[]: 
+[Id]: 20653
+[SkillLineDbcRecord]: 202
+[SpellDbcRecord]: 61481
+[RaceMask]: 0
+[ClassMask]: 1032
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 440
+[TrivialSkillLineRankLow]: 425
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 164 ------------------
+[]: 
+[Id]: 2929
+[SkillLineDbcRecord]: 226
+[SpellDbcRecord]: 5011
+[RaceMask]: 0
+[ClassMask]: 13
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 165 ------------------
+[]: 
+[Id]: 15697
+[SkillLineDbcRecord]: 226
+[SpellDbcRecord]: 3018
+[RaceMask]: 0
+[ClassMask]: 9
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 1
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 166 ------------------
+[]: 
+[Id]: 4033
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 2098
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 6760
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 167 ------------------
+[]: 
+[Id]: 4037
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 1943
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 8639
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 168 ------------------
+[]: 
+[Id]: 4038
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 703
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 8631
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 169 ------------------
+[]: 
+[Id]: 4050
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 6760
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 6761
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 170 ------------------
+[]: 
+[Id]: 4051
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 6761
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 6762
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 171 ------------------
+[]: 
+[Id]: 4052
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 6762
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 8623
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 172 ------------------
+[]: 
+[Id]: 4770
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 8623
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 8624
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 173 ------------------
+[]: 
+[Id]: 4771
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 8624
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 11299
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 174 ------------------
+[]: 
+[Id]: 4772
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 8631
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 8632
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 175 ------------------
+[]: 
+[Id]: 4773
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 8632
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 8633
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 176 ------------------
+[]: 
+[Id]: 4774
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 8633
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 11289
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 177 ------------------
+[]: 
+[Id]: 4778
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 8639
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 8640
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 178 ------------------
+[]: 
+[Id]: 4779
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 8640
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 11273
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 179 ------------------
+[]: 
+[Id]: 4827
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 8676
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 8724
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 180 ------------------
+[]: 
+[Id]: 4828
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 8724
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 8725
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 181 ------------------
+[]: 
+[Id]: 4829
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 8725
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 11267
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 182 ------------------
+[]: 
+[Id]: 5939
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 11267
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 11268
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 183 ------------------
+[]: 
+[Id]: 5940
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 11268
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 11269
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 184 ------------------
+[]: 
+[Id]: 5941
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 11269
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 27441
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 185 ------------------
+[]: 
+[Id]: 5945
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 11299
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 11300
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 186 ------------------
+[]: 
+[Id]: 5946
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 11300
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 31016
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 187 ------------------
+[]: 
+[Id]: 5947
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 11289
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 11290
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 188 ------------------
+[]: 
+[Id]: 5948
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 11290
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 26839
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 189 ------------------
+[]: 
+[Id]: 5949
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 11273
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 11274
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 190 ------------------
+[]: 
+[Id]: 5950
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 11274
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 11275
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 191 ------------------
+[]: 
+[Id]: 5951
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 11275
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 26867
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 192 ------------------
+[]: 
+[Id]: 6386
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 5171
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 6774
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 193 ------------------
+[]: 
+[Id]: 6387
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 6774
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 194 ------------------
+[]: 
+[Id]: 6388
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 408
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 8643
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 195 ------------------
+[]: 
+[Id]: 6389
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 8643
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 196 ------------------
+[]: 
+[Id]: 6390
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 1833
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 197 ------------------
+[]: 
+[Id]: 13547
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 26679
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48673
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 198 ------------------
+[]: 
+[Id]: 13711
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 26865
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48667
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 199 ------------------
+[]: 
+[Id]: 13713
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 26867
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48671
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 200 ------------------
+[]: 
+[Id]: 13714
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 26839
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 26884
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 201 ------------------
+[]: 
+[Id]: 13715
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 26884
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48675
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 202 ------------------
+[]: 
+[Id]: 13716
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 27441
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48689
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 203 ------------------
+[]: 
+[Id]: 14489
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 31016
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 26865
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 204 ------------------
+[]: 
+[Id]: 14589
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 31226
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 205 ------------------
+[]: 
+[Id]: 14590
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 31227
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 206 ------------------
+[]: 
+[Id]: 14597
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 31234
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 207 ------------------
+[]: 
+[Id]: 14598
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 31235
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 208 ------------------
+[]: 
+[Id]: 14599
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 31236
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 209 ------------------
+[]: 
+[Id]: 14607
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 31208
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 210 ------------------
+[]: 
+[Id]: 14608
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 31209
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 211 ------------------
+[]: 
+[Id]: 14614
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 31380
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 212 ------------------
+[]: 
+[Id]: 14615
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 31382
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 213 ------------------
+[]: 
+[Id]: 14616
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 31383
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 214 ------------------
+[]: 
+[Id]: 14734
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 8647
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 8649
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 215 ------------------
+[]: 
+[Id]: 14798
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 31244
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 216 ------------------
+[]: 
+[Id]: 14799
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 31245
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 217 ------------------
+[]: 
+[Id]: 14895
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 1329
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 34411
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 218 ------------------
+[]: 
+[Id]: 14908
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 32645
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 32684
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 219 ------------------
+[]: 
+[Id]: 14909
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 32684
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 57992
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 220 ------------------
+[]: 
+[Id]: 15168
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 34411
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 34412
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 221 ------------------
+[]: 
+[Id]: 15169
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 34412
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 34413
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 222 ------------------
+[]: 
+[Id]: 15170
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 34413
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48663
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 223 ------------------
+[]: 
+[Id]: 16680
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 48663
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48666
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 224 ------------------
+[]: 
+[Id]: 16681
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 48666
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 225 ------------------
+[]: 
+[Id]: 16682
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 48667
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48668
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 226 ------------------
+[]: 
+[Id]: 16683
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 48668
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 227 ------------------
+[]: 
+[Id]: 16685
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 48671
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48672
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 228 ------------------
+[]: 
+[Id]: 16686
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 48672
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 229 ------------------
+[]: 
+[Id]: 16687
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 48673
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48674
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 230 ------------------
+[]: 
+[Id]: 16688
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 48674
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 231 ------------------
+[]: 
+[Id]: 16689
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 48675
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48676
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 232 ------------------
+[]: 
+[Id]: 16690
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 48676
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 233 ------------------
+[]: 
+[Id]: 16691
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 48689
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48690
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 234 ------------------
+[]: 
+[Id]: 16692
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 48690
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 48691
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 235 ------------------
+[]: 
+[Id]: 16693
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 48691
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 236 ------------------
+[]: 
+[Id]: 17694
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51625
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 237 ------------------
+[]: 
+[Id]: 17695
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51626
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 238 ------------------
+[]: 
+[Id]: 17696
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51627
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 239 ------------------
+[]: 
+[Id]: 17697
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51628
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 240 ------------------
+[]: 
+[Id]: 17698
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51629
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 241 ------------------
+[]: 
+[Id]: 17701
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51632
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 242 ------------------
+[]: 
+[Id]: 17702
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51633
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 243 ------------------
+[]: 
+[Id]: 17703
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51634
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 244 ------------------
+[]: 
+[Id]: 17704
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51635
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 245 ------------------
+[]: 
+[Id]: 17705
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51636
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 246 ------------------
+[]: 
+[Id]: 17706
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51634
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 247 ------------------
+[]: 
+[Id]: 17707
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51635
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 248 ------------------
+[]: 
+[Id]: 17708
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51636
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 249 ------------------
+[]: 
+[Id]: 17709
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51637
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 250 ------------------
+[]: 
+[Id]: 17710
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51662
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 251 ------------------
+[]: 
+[Id]: 17711
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51664
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 252 ------------------
+[]: 
+[Id]: 17712
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51665
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 253 ------------------
+[]: 
+[Id]: 17713
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51667
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 254 ------------------
+[]: 
+[Id]: 17714
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51668
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 255 ------------------
+[]: 
+[Id]: 17715
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51669
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 256 ------------------
+[]: 
+[Id]: 17749
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 51722
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 257 ------------------
+[]: 
+[Id]: 19966
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 57992
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 57993
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 258 ------------------
+[]: 
+[Id]: 19967
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 57993
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 259 ------------------
+[]: 
+[Id]: 19985
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 58410
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 260 ------------------
+[]: 
+[Id]: 19995
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 58426
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 261 ------------------
+[]: 
+[Id]: 19996
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 58427
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 262 ------------------
+[]: 
+[Id]: 19997
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 58428
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 263 ------------------
+[]: 
+[Id]: 21723
+[SkillLineDbcRecord]: 253
+[SpellDbcRecord]: 75460
+[RaceMask]: 1791
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 264 ------------------
+[]: 
+[Id]: 4998
+[SkillLineDbcRecord]: 414
+[SpellDbcRecord]: 9077
+[RaceMask]: 0
+[ClassMask]: 1135
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 265 ------------------
+[]: 
+[Id]: 4999
+[SkillLineDbcRecord]: 415
+[SpellDbcRecord]: 9078
+[RaceMask]: 0
+[ClassMask]: 1535
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 266 ------------------
+[]: 
+[Id]: 8438
+[SkillLineDbcRecord]: 473
+[SpellDbcRecord]: 15590
+[RaceMask]: 0
+[ClassMask]: 1101
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 267 ------------------
+[]: 
+[Id]: 8439
+[SkillLineDbcRecord]: 633
+[SpellDbcRecord]: 1804
+[RaceMask]: 0
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 268 ------------------
+[]: 
+[Id]: 13338
+[SkillLineDbcRecord]: 756
+[SpellDbcRecord]: 25046
+[RaceMask]: 512
+[ClassMask]: 8
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 0
+[AcquireMethod]: 2
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+Count found 269 ------------------
+[]: 
+[Id]: 15030
+[SkillLineDbcRecord]: 762
+[SpellDbcRecord]: 33391
+[RaceMask]: 0
+[ClassMask]: 1503
+[excludeRace]: 0
+[excludeClass]: 0
+[ReqSkillValue]: 1
+[SpellDbcRecordParent]: 34090
+[AcquireMethod]: 0
+[TrivialSkillLineRankHigh]: 0
+[TrivialSkillLineRankLow]: 0
+[CharacterPoints1]: 0
+[CharacterPoints2]: 0
+SkillLineAbilityId: 3394, SpellId: 1776, Name: Gouge
+SkillLineAbilityId: 3395, SpellId: 1752, Name: Sinister Strike
+SkillLineAbilityId: 3396, SpellId: 1757, Name: Sinister Strike
+SkillLineAbilityId: 3397, SpellId: 1758, Name: Sinister Strike
+SkillLineAbilityId: 3398, SpellId: 1759, Name: Sinister Strike
+SkillLineAbilityId: 3399, SpellId: 1760, Name: Sinister Strike
+SkillLineAbilityId: 4769, SpellId: 8621, Name: Sinister Strike
+SkillLineAbilityId: 4781, SpellId: 1766, Name: Kick
+SkillLineAbilityId: 5936, SpellId: 11293, Name: Sinister Strike
+SkillLineAbilityId: 5937, SpellId: 11294, Name: Sinister Strike
+SkillLineAbilityId: 6367, SpellId: 53, Name: Backstab
+SkillLineAbilityId: 6368, SpellId: 2589, Name: Backstab
+SkillLineAbilityId: 6369, SpellId: 2590, Name: Backstab
+SkillLineAbilityId: 6370, SpellId: 2591, Name: Backstab
+SkillLineAbilityId: 6371, SpellId: 8721, Name: Backstab
+SkillLineAbilityId: 6372, SpellId: 11279, Name: Backstab
+SkillLineAbilityId: 6373, SpellId: 11280, Name: Backstab
+SkillLineAbilityId: 6374, SpellId: 11281, Name: Backstab
+SkillLineAbilityId: 6375, SpellId: 1966, Name: Feint
+SkillLineAbilityId: 6376, SpellId: 6768, Name: Feint
+SkillLineAbilityId: 6377, SpellId: 8637, Name: Feint
+SkillLineAbilityId: 6378, SpellId: 11303, Name: Feint
+SkillLineAbilityId: 6379, SpellId: 5277, Name: Evasion
+SkillLineAbilityId: 7638, SpellId: 2983, Name: Sprint
+SkillLineAbilityId: 7639, SpellId: 8696, Name: Sprint
+SkillLineAbilityId: 7640, SpellId: 11305, Name: Sprint
+SkillLineAbilityId: 12039, SpellId: 21184, Name: Rogue Passive (DND)
+SkillLineAbilityId: 13238, SpellId: 25300, Name: Backstab
+SkillLineAbilityId: 13239, SpellId: 25302, Name: Feint
+SkillLineAbilityId: 13461, SpellId: 5938, Name: Shiv
+SkillLineAbilityId: 13542, SpellId: 26669, Name: Evasion
+SkillLineAbilityId: 13707, SpellId: 26861, Name: Sinister Strike
+SkillLineAbilityId: 13708, SpellId: 26862, Name: Sinister Strike
+SkillLineAbilityId: 13709, SpellId: 26863, Name: Backstab
+SkillLineAbilityId: 13710, SpellId: 27448, Name: Feint
+SkillLineAbilityId: 14503, SpellId: 31124, Name: Blade Twisting
+SkillLineAbilityId: 14504, SpellId: 31126, Name: Blade Twisting
+SkillLineAbilityId: 14508, SpellId: 31125, Name: Blade Twisting
+SkillLineAbilityId: 14509, SpellId: 31122, Name: Vitality
+SkillLineAbilityId: 14510, SpellId: 31123, Name: Vitality
+SkillLineAbilityId: 14894, SpellId: 32601, Name: Surprise Attacks
+SkillLineAbilityId: 15032, SpellId: 31130, Name: Nerves of Steel
+SkillLineAbilityId: 15033, SpellId: 31131, Name: Nerves of Steel
+SkillLineAbilityId: 15514, SpellId: 35541, Name: Combat Potency
+SkillLineAbilityId: 15515, SpellId: 35550, Name: Combat Potency
+SkillLineAbilityId: 15516, SpellId: 35551, Name: Combat Potency
+SkillLineAbilityId: 15517, SpellId: 35552, Name: Combat Potency
+SkillLineAbilityId: 15518, SpellId: 35553, Name: Combat Potency
+SkillLineAbilityId: 16670, SpellId: 48637, Name: Sinister Strike
+SkillLineAbilityId: 16671, SpellId: 48638, Name: Sinister Strike
+SkillLineAbilityId: 16675, SpellId: 48656, Name: Backstab
+SkillLineAbilityId: 16676, SpellId: 48657, Name: Backstab
+SkillLineAbilityId: 16677, SpellId: 48658, Name: Feint
+SkillLineAbilityId: 16678, SpellId: 48659, Name: Feint
+SkillLineAbilityId: 17716, SpellId: 51672, Name: Unfair Advantage
+SkillLineAbilityId: 17717, SpellId: 51674, Name: Unfair Advantage
+SkillLineAbilityId: 17718, SpellId: 51675, Name: Unfair Advantage
+SkillLineAbilityId: 17719, SpellId: 51677, Name: Unfair Advantage
+SkillLineAbilityId: 17720, SpellId: 5952, Name: Throwing Specialization
+SkillLineAbilityId: 17721, SpellId: 51679, Name: Throwing Specialization
+SkillLineAbilityId: 17722, SpellId: 51680, Name: Throwing Specialization
+SkillLineAbilityId: 17723, SpellId: 51682, Name: Savage Combat
+SkillLineAbilityId: 17726, SpellId: 51685, Name: Prey on the Weak
+SkillLineAbilityId: 17727, SpellId: 51686, Name: Prey on the Weak
+SkillLineAbilityId: 17728, SpellId: 51687, Name: Prey on the Weak
+SkillLineAbilityId: 17729, SpellId: 51688, Name: Prey on the Weak
+SkillLineAbilityId: 17730, SpellId: 51689, Name: Prey on the Weak
+SkillLineAbilityId: 17731, SpellId: 51690, Name: Killing Spree
+SkillLineAbilityId: 17750, SpellId: 51723, Name: Fan of Knives
+SkillLineAbilityId: 19980, SpellId: 14165, Name: Improved Slice and Dice
+SkillLineAbilityId: 19981, SpellId: 14166, Name: Improved Slice and Dice
+SkillLineAbilityId: 19986, SpellId: 58413, Name: Savage Combat
+SkillLineAbilityId: 20622, SpellId: 61329, Name: Vitality
+SkillLineAbilityId: 3276, SpellId: 1725, Name: Distract
+SkillLineAbilityId: 3965, SpellId: 2094, Name: Blind
+SkillLineAbilityId: 6360, SpellId: 921, Name: Pick Pocket
+SkillLineAbilityId: 6361, SpellId: 1784, Name: Stealth
+SkillLineAbilityId: 6365, SpellId: 1856, Name: Vanish
+SkillLineAbilityId: 6366, SpellId: 1857, Name: Vanish
+SkillLineAbilityId: 6383, SpellId: 6770, Name: Sap
+SkillLineAbilityId: 6384, SpellId: 2070, Name: Sap
+SkillLineAbilityId: 6385, SpellId: 11297, Name: Sap
+SkillLineAbilityId: 7822, SpellId: 14278, Name: Ghostly Strike
+SkillLineAbilityId: 7914, SpellId: 2836, Name: Detect Traps
+SkillLineAbilityId: 8055, SpellId: 1842, Name: Disarm Trap
+SkillLineAbilityId: 9116, SpellId: 16511, Name: Hemorrhage
+SkillLineAbilityId: 9856, SpellId: 17347, Name: Hemorrhage
+SkillLineAbilityId: 9857, SpellId: 17348, Name: Hemorrhage
+SkillLineAbilityId: 11739, SpellId: 1860, Name: Safe Fall
+SkillLineAbilityId: 13717, SpellId: 26889, Name: Vanish
+SkillLineAbilityId: 14575, SpellId: 31211, Name: Enveloping Shadows
+SkillLineAbilityId: 14576, SpellId: 31212, Name: Enveloping Shadows
+SkillLineAbilityId: 14577, SpellId: 31213, Name: Enveloping Shadows
+SkillLineAbilityId: 14580, SpellId: 31216, Name: Sinister Calling
+SkillLineAbilityId: 14581, SpellId: 31217, Name: Sinister Calling
+SkillLineAbilityId: 14582, SpellId: 31218, Name: Sinister Calling
+SkillLineAbilityId: 14583, SpellId: 31219, Name: Sinister Calling
+SkillLineAbilityId: 14584, SpellId: 31220, Name: Sinister Calling
+SkillLineAbilityId: 14585, SpellId: 31221, Name: Master of Subtlety
+SkillLineAbilityId: 14586, SpellId: 31222, Name: Master of Subtlety
+SkillLineAbilityId: 14587, SpellId: 31223, Name: Master of Subtlety
+SkillLineAbilityId: 14588, SpellId: 31224, Name: Cloak of Shadows
+SkillLineAbilityId: 14609, SpellId: 31228, Name: Cheat Death
+SkillLineAbilityId: 14610, SpellId: 31229, Name: Cheat Death
+SkillLineAbilityId: 14611, SpellId: 31230, Name: Cheat Death
+SkillLineAbilityId: 14789, SpellId: 26864, Name: Hemorrhage
+SkillLineAbilityId: 15687, SpellId: 36554, Name: Shadowstep
+SkillLineAbilityId: 16679, SpellId: 48660, Name: Hemorrhage
+SkillLineAbilityId: 17732, SpellId: 51692, Name: Waylay
+SkillLineAbilityId: 17733, SpellId: 51696, Name: Waylay
+SkillLineAbilityId: 17734, SpellId: 51693, Name: Waylay
+SkillLineAbilityId: 17735, SpellId: 51698, Name: Honor Among Thieves
+SkillLineAbilityId: 17736, SpellId: 51700, Name: Honor Among Thieves
+SkillLineAbilityId: 17737, SpellId: 51701, Name: Honor Among Thieves
+SkillLineAbilityId: 17738, SpellId: 51699, Name: Honor Among Thieves
+SkillLineAbilityId: 17743, SpellId: 51708, Name: Slaughter from the Shadows
+SkillLineAbilityId: 17744, SpellId: 51709, Name: Slaughter from the Shadows
+SkillLineAbilityId: 17745, SpellId: 51710, Name: Slaughter from the Shadows
+SkillLineAbilityId: 17746, SpellId: 51711, Name: Slaughter from the Shadows
+SkillLineAbilityId: 17747, SpellId: 51712, Name: Slaughter from the Shadows
+SkillLineAbilityId: 17748, SpellId: 51713, Name: Shadow Dance
+SkillLineAbilityId: 17751, SpellId: 51724, Name: Sap
+SkillLineAbilityId: 19962, SpellId: 57934, Name: Tricks of the Trade
+SkillLineAbilityId: 19963, SpellId: 57933, Name: Tricks of the Trade
+SkillLineAbilityId: 19987, SpellId: 58414, Name: Filthy Tricks
+SkillLineAbilityId: 19988, SpellId: 58415, Name: Filthy Tricks
+SkillLineAbilityId: 19989, SpellId: 14179, Name: Relentless Strikes
+SkillLineAbilityId: 19990, SpellId: 58422, Name: Relentless Strikes
+SkillLineAbilityId: 19991, SpellId: 58423, Name: Relentless Strikes
+SkillLineAbilityId: 19992, SpellId: 58424, Name: Relentless Strikes
+SkillLineAbilityId: 19993, SpellId: 58425, Name: Relentless Strikes
+SkillLineAbilityId: 19994, SpellId: 14181, Name: Relentless Strikes Effect
+SkillLineAbilityId: 252, SpellId: 201, Name: One-Handed Swords
+SkillLineAbilityId: 248, SpellId: 196, Name: One-Handed Axes
+SkillLineAbilityId: 246, SpellId: 264, Name: Bows
+SkillLineAbilityId: 15696, SpellId: 3018, Name: Shoot
+SkillLineAbilityId: 251, SpellId: 266, Name: Guns
+SkillLineAbilityId: 15695, SpellId: 3018, Name: Shoot
+SkillLineAbilityId: 254, SpellId: 198, Name: One-Handed Maces
+SkillLineAbilityId: 2201, SpellId: 3127, Name: Parry
+SkillLineAbilityId: 13068, SpellId: 16092, Name: Defensive State (DND)
+SkillLineAbilityId: 610, SpellId: 674, Name: Dual Wield
+SkillLineAbilityId: 11708, SpellId: 20572, Name: Blood Fury
+SkillLineAbilityId: 12041, SpellId: 21563, Name: Command
+SkillLineAbilityId: 20665, SpellId: 21009, Name: Elusiveness
+SkillLineAbilityId: 1839, SpellId: 3276, Name: Heavy Linen Bandage
+SkillLineAbilityId: 1840, SpellId: 3277, Name: Wool Bandage
+SkillLineAbilityId: 1841, SpellId: 3278, Name: Heavy Wool Bandage
+SkillLineAbilityId: 4414, SpellId: 7928, Name: Silk Bandage
+SkillLineAbilityId: 4415, SpellId: 7929, Name: Heavy Silk Bandage
+SkillLineAbilityId: 4417, SpellId: 7934, Name: Anti-Venom
+SkillLineAbilityId: 5766, SpellId: 10846, Name: First Aid
+SkillLineAbilityId: 5767, SpellId: 10840, Name: Mageweave Bandage
+SkillLineAbilityId: 5768, SpellId: 10841, Name: Heavy Mageweave Bandage
+SkillLineAbilityId: 10488, SpellId: 18629, Name: Runecloth Bandage
+SkillLineAbilityId: 10489, SpellId: 18630, Name: Heavy Runecloth Bandage
+SkillLineAbilityId: 1387, SpellId: 1180, Name: Daggers
+SkillLineAbilityId: 20867, SpellId: 63645, Name: Activate Primary Spec
+SkillLineAbilityId: 20868, SpellId: 63644, Name: Activate Secondary Spec
+SkillLineAbilityId: 15855, SpellId: 41317, Name: Deathblow X11 Goggles
+SkillLineAbilityId: 16256, SpellId: 46116, Name: Quad Deathblow X44 Goggles
+SkillLineAbilityId: 19588, SpellId: 56481, Name: Weakness Spectralizers
+SkillLineAbilityId: 20653, SpellId: 61481, Name: Mechanized Snow Goggles
+SkillLineAbilityId: 2929, SpellId: 5011, Name: Crossbows
+SkillLineAbilityId: 15697, SpellId: 3018, Name: Shoot
+SkillLineAbilityId: 4033, SpellId: 2098, Name: Eviscerate
+SkillLineAbilityId: 4037, SpellId: 1943, Name: Rupture
+SkillLineAbilityId: 4038, SpellId: 703, Name: Garrote
+SkillLineAbilityId: 4050, SpellId: 6760, Name: Eviscerate
+SkillLineAbilityId: 4051, SpellId: 6761, Name: Eviscerate
+SkillLineAbilityId: 4052, SpellId: 6762, Name: Eviscerate
+SkillLineAbilityId: 4770, SpellId: 8623, Name: Eviscerate
+SkillLineAbilityId: 4771, SpellId: 8624, Name: Eviscerate
+SkillLineAbilityId: 4772, SpellId: 8631, Name: Garrote
+SkillLineAbilityId: 4773, SpellId: 8632, Name: Garrote
+SkillLineAbilityId: 4774, SpellId: 8633, Name: Garrote
+SkillLineAbilityId: 4778, SpellId: 8639, Name: Rupture
+SkillLineAbilityId: 4779, SpellId: 8640, Name: Rupture
+SkillLineAbilityId: 4827, SpellId: 8676, Name: Ambush
+SkillLineAbilityId: 4828, SpellId: 8724, Name: Ambush
+SkillLineAbilityId: 4829, SpellId: 8725, Name: Ambush
+SkillLineAbilityId: 5939, SpellId: 11267, Name: Ambush
+SkillLineAbilityId: 5940, SpellId: 11268, Name: Ambush
+SkillLineAbilityId: 5941, SpellId: 11269, Name: Ambush
+SkillLineAbilityId: 5945, SpellId: 11299, Name: Eviscerate
+SkillLineAbilityId: 5946, SpellId: 11300, Name: Eviscerate
+SkillLineAbilityId: 5947, SpellId: 11289, Name: Garrote
+SkillLineAbilityId: 5948, SpellId: 11290, Name: Garrote
+SkillLineAbilityId: 5949, SpellId: 11273, Name: Rupture
+SkillLineAbilityId: 5950, SpellId: 11274, Name: Rupture
+SkillLineAbilityId: 5951, SpellId: 11275, Name: Rupture
+SkillLineAbilityId: 6386, SpellId: 5171, Name: Slice and Dice
+SkillLineAbilityId: 6387, SpellId: 6774, Name: Slice and Dice
+SkillLineAbilityId: 6388, SpellId: 408, Name: Kidney Shot
+SkillLineAbilityId: 6389, SpellId: 8643, Name: Kidney Shot
+SkillLineAbilityId: 6390, SpellId: 1833, Name: Cheap Shot
+SkillLineAbilityId: 13547, SpellId: 26679, Name: Deadly Throw
+SkillLineAbilityId: 13711, SpellId: 26865, Name: Eviscerate
+SkillLineAbilityId: 13713, SpellId: 26867, Name: Rupture
+SkillLineAbilityId: 13714, SpellId: 26839, Name: Garrote
+SkillLineAbilityId: 13715, SpellId: 26884, Name: Garrote
+SkillLineAbilityId: 13716, SpellId: 27441, Name: Ambush
+SkillLineAbilityId: 14489, SpellId: 31016, Name: Eviscerate
+SkillLineAbilityId: 14589, SpellId: 31226, Name: Master Poisoner
+SkillLineAbilityId: 14590, SpellId: 31227, Name: Master Poisoner
+SkillLineAbilityId: 14597, SpellId: 31234, Name: Find Weakness
+SkillLineAbilityId: 14598, SpellId: 31235, Name: Find Weakness
+SkillLineAbilityId: 14599, SpellId: 31236, Name: Find Weakness
+SkillLineAbilityId: 14607, SpellId: 31208, Name: Fleet Footed
+SkillLineAbilityId: 14608, SpellId: 31209, Name: Fleet Footed
+SkillLineAbilityId: 14614, SpellId: 31380, Name: Deadened Nerves
+SkillLineAbilityId: 14615, SpellId: 31382, Name: Deadened Nerves
+SkillLineAbilityId: 14616, SpellId: 31383, Name: Deadened Nerves
+SkillLineAbilityId: 14734, SpellId: 8647, Name: Expose Armor
+SkillLineAbilityId: 14798, SpellId: 31244, Name: Quick Recovery
+SkillLineAbilityId: 14799, SpellId: 31245, Name: Quick Recovery
+SkillLineAbilityId: 14895, SpellId: 1329, Name: Mutilate
+SkillLineAbilityId: 14908, SpellId: 32645, Name: Envenom
+SkillLineAbilityId: 14909, SpellId: 32684, Name: Envenom
+SkillLineAbilityId: 15168, SpellId: 34411, Name: Mutilate
+SkillLineAbilityId: 15169, SpellId: 34412, Name: Mutilate
+SkillLineAbilityId: 15170, SpellId: 34413, Name: Mutilate
+SkillLineAbilityId: 16680, SpellId: 48663, Name: Mutilate
+SkillLineAbilityId: 16681, SpellId: 48666, Name: Mutilate
+SkillLineAbilityId: 16682, SpellId: 48667, Name: Eviscerate
+SkillLineAbilityId: 16683, SpellId: 48668, Name: Eviscerate
+SkillLineAbilityId: 16685, SpellId: 48671, Name: Rupture
+SkillLineAbilityId: 16686, SpellId: 48672, Name: Rupture
+SkillLineAbilityId: 16687, SpellId: 48673, Name: Deadly Throw
+SkillLineAbilityId: 16688, SpellId: 48674, Name: Deadly Throw
+SkillLineAbilityId: 16689, SpellId: 48675, Name: Garrote
+SkillLineAbilityId: 16690, SpellId: 48676, Name: Garrote
+SkillLineAbilityId: 16691, SpellId: 48689, Name: Ambush
+SkillLineAbilityId: 16692, SpellId: 48690, Name: Ambush
+SkillLineAbilityId: 16693, SpellId: 48691, Name: Ambush
+SkillLineAbilityId: 17694, SpellId: 51625, Name: Deadly Brew
+SkillLineAbilityId: 17695, SpellId: 51626, Name: Deadly Brew
+SkillLineAbilityId: 17696, SpellId: 51627, Name: Turn the Tables
+SkillLineAbilityId: 17697, SpellId: 51628, Name: Turn the Tables
+SkillLineAbilityId: 17698, SpellId: 51629, Name: Turn the Tables
+SkillLineAbilityId: 17701, SpellId: 51632, Name: Blood Spatter
+SkillLineAbilityId: 17702, SpellId: 51633, Name: Blood Spatter
+SkillLineAbilityId: 17703, SpellId: 51634, Name: Focused Attacks
+SkillLineAbilityId: 17704, SpellId: 51635, Name: Focused Attacks
+SkillLineAbilityId: 17705, SpellId: 51636, Name: Focused Attacks
+SkillLineAbilityId: 17706, SpellId: 51634, Name: Focused Attacks
+SkillLineAbilityId: 17707, SpellId: 51635, Name: Focused Attacks
+SkillLineAbilityId: 17708, SpellId: 51636, Name: Focused Attacks
+SkillLineAbilityId: 17709, SpellId: 51637, Name: Focused Attacks
+SkillLineAbilityId: 17710, SpellId: 51662, Name: Hunger For Blood
+SkillLineAbilityId: 17711, SpellId: 51664, Name: Cut to the Chase
+SkillLineAbilityId: 17712, SpellId: 51665, Name: Cut to the Chase
+SkillLineAbilityId: 17713, SpellId: 51667, Name: Cut to the Chase
+SkillLineAbilityId: 17714, SpellId: 51668, Name: Cut to the Chase
+SkillLineAbilityId: 17715, SpellId: 51669, Name: Cut to the Chase
+SkillLineAbilityId: 17749, SpellId: 51722, Name: Dismantle
+SkillLineAbilityId: 19966, SpellId: 57992, Name: Envenom
+SkillLineAbilityId: 19967, SpellId: 57993, Name: Envenom
+SkillLineAbilityId: 19985, SpellId: 58410, Name: Master Poisoner
+SkillLineAbilityId: 19995, SpellId: 58426, Name: Overkill
+SkillLineAbilityId: 19996, SpellId: 58427, Name: Overkill
+SkillLineAbilityId: 19997, SpellId: 58428, Name: Spell Not Found
+SkillLineAbilityId: 21723, SpellId: 75460, Name: Spell Not Found
+SkillLineAbilityId: 4998, SpellId: 9077, Name: Leather
+SkillLineAbilityId: 4999, SpellId: 9078, Name: Cloth
+SkillLineAbilityId: 8438, SpellId: 15590, Name: Fist Weapons
+SkillLineAbilityId: 8439, SpellId: 1804, Name: Pick Lock
+SkillLineAbilityId: 13338, SpellId: 25046, Name: Arcane Torrent
+SkillLineAbilityId: 15030, SpellId: 33391, Name: Journeyman Riding

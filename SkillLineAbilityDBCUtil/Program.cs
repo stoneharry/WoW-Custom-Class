@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SpellEditor.Sources.DBC;
+using System;
+using System.IO;
 using System.Linq;
 
 namespace SkillLineAbilityDBCUtil
@@ -6,16 +8,26 @@ namespace SkillLineAbilityDBCUtil
     class Program
     {
         static SkillLineAbilityDBC DBC;
+        static SpellDBC SpellDBC;
+        static SkillRaceClassInfoDBC RaceClassDBC;
 
         static void Main(string[] args)
         {
             var path = "D:/WoW Resources/2019_TrinityCore/DBC Temp/SkillLineAbility.dbc";
+            var spellPath = "D:/WoW Resources/2019_TrinityCore/DBC Temp/Spell.dbc";
+            var raceClassPath = "D:/WoW Resources/2019_TrinityCore/DBC Temp/SkillRaceClassInfo.dbc";
             var exportPath = "D:/WoW Resources/2019_TrinityCore/DBC Temp/Export/SkillLineAbility.dbc";
-            var startIndex = 0;
-            var rangeToCopy = 32;
+            var exportRaceClassPath = "D:/WoW Resources/2019_TrinityCore/DBC Temp/Export/SkillRaceClassInfo.dbc";
+            bool useLogFile = true;
 
             Console.WriteLine($"Processing {path}...");
             DBC = new SkillLineAbilityDBC(path, exportPath);
+            Console.WriteLine($"Processing {raceClassPath}...");
+            RaceClassDBC = new SkillRaceClassInfoDBC(raceClassPath, exportRaceClassPath);
+            Console.WriteLine($"Processing {spellPath}...");
+            SpellDBC = new SpellDBC(spellPath);
+
+            Console.WriteLine("Done loading DBC's.");
 
             Console.WriteLine("Read entries (R) for classmask or write new data (W)?");
             int keyread = AcceptInput();
@@ -23,18 +35,29 @@ namespace SkillLineAbilityDBCUtil
                 return;
             if (keyread == 0)
             {
-                Console.WriteLine("Input classmask to read:");
+                Console.WriteLine("\nInput classmask to read:");
                 uint classMask = ReadClassMask();
+                Console.WriteLine("Program output redirected to output.txt");
+                var ostrm = new FileStream("output.txt", FileMode.Create, FileAccess.Write);
+                var writer = new StreamWriter(ostrm);
+                Console.SetOut(writer);
                 OutputClassMaskData(classMask);
+                writer.Dispose();
+                ostrm.Dispose();
             }
             else
             {
-                Console.WriteLine("Input classmask to copy:");
+                Console.WriteLine("\nInput classmask to copy:");
                 uint readMask = ReadClassMask();
                 Console.WriteLine("Input classmask to write as instead:");
                 uint writeMask = ReadClassMask();
+                Console.WriteLine("Program output redirected to output.txt");
+                var ostrm = new FileStream("output.txt", FileMode.OpenOrCreate, FileAccess.Write);
+                var writer = new StreamWriter(ostrm);
+                Console.SetOut(writer);
 
                 Console.WriteLine($"Reading mask {readMask} and writing a copy as mask {writeMask}...");
+                Console.WriteLine("Processing SkillLineAbility.dbc...");
                 var records = DBC.GetAllRecords().Where(record => (((uint)record["ClassMask"]) & readMask) != 0);
                 uint id = DBC.GetAllRecords().Max(record => (uint)record["Id"]);
                 Console.WriteLine($"Read {records.Count()} records. Writing as new class mask {writeMask} starting with id {id}...");
@@ -50,14 +73,59 @@ namespace SkillLineAbilityDBCUtil
                 DBC.SaveChanges();
 
                 Console.WriteLine("Done. New max records: " + DBC.GetAllRecords().Max(record => (uint)record["Id"]));
+
+                Console.WriteLine("Processing SkillRaceClassInfo...");
+                records = RaceClassDBC.GetAllRecords().Where(record => (((uint)record["classMask"]) & readMask) != 0);
+                id = DBC.GetAllRecords().Max(record => (uint)record["Id"]);
+                Console.WriteLine($"Read {records.Count()} records. Writing as new class mask {writeMask} starting with id {id}...");
+
+                list = records.ToList();
+                foreach (var entry in list)
+                {
+                    entry["Id"] = ++id;
+                    entry["classMask"] = writeMask;
+                }
+
+                RaceClassDBC.AddNewRecords(list);
+                RaceClassDBC.SaveChanges();
+
+                Console.WriteLine("Done. New max records: " + RaceClassDBC.GetAllRecords().Max(record => (uint)record["Id"]));
+
+
+                writer.Dispose();
+                ostrm.Dispose();
             }
-            Console.WriteLine("Done, press any key to exit...");
-            Console.ReadKey();
+            if (!useLogFile)
+            {
+                Console.WriteLine("Done, press any key to exit...");
+                Console.ReadKey();
+            }
         }
 
         static void OutputClassMaskData(uint compareMask)
         {
             uint count = 0;
+            Console.WriteLine("====== SkillRaceClassInfo =======");
+            foreach (var record in RaceClassDBC.GetAllRecords())
+            {
+                uint classMask = (uint)record["classMask"];
+                if ((classMask & compareMask) != 0)
+                {
+                    Console.WriteLine($"Count found {++count} ------------------");
+                    using (var enumer = record.GetEnumerator())
+                    {
+                        do
+                        {
+                            var entry = enumer.Current;
+                            var key = entry.Key;
+                            var value = entry.Value;
+                            Console.WriteLine($"[{key}]: {value}");
+                        }
+                        while (enumer.MoveNext());
+                    }
+                }
+            }
+            Console.WriteLine("====== SkillLineAbility =======");
             foreach (var record in DBC.GetAllRecords())
             {
                 uint classMask = (uint) record["ClassMask"];
@@ -75,6 +143,18 @@ namespace SkillLineAbilityDBCUtil
                         }
                         while (enumer.MoveNext());
                     }
+                }
+            }
+            foreach (var record in DBC.GetAllRecords())
+            {
+                uint classMask = (uint)record["ClassMask"];
+                if ((classMask & compareMask) != 0)
+                {
+                    uint skillId = (uint)record["Id"];
+                    uint spellEntry = (uint)record["SpellDbcRecord"];
+                    var allSpells = SpellDBC.GetAllRecords().FirstOrDefault(r => ((uint)r["ID"]) == spellEntry);
+                    string spellName = allSpells != null ? SpellDBC.LookupString(((uint[])allSpells["SpellName"])[0]) : "Spell Not Found";
+                    Console.WriteLine($"SkillLineAbilityId: {skillId}, SpellId: {spellEntry}, Name: {spellName}");
                 }
             }
         }
