@@ -90,3 +90,16 @@ Then input some very basic text controls to read and write data:
 
 Unfortunately I leave it here for today, I only have limited time after work.
 
+## 2019-01-17 ##
+
+Not much to report over the last couple of days as I have not had much free time. I realised I also needed to modify the `SkillRaceClassInfo.dbc` and needed to load in the `Spell.dbc` in order to properly resolve references for debugging purposes. I have added these features to the program I am writing and done some more debugging.
+
+I logged all the records found with a matching classmask to debug what was being added:
+
+![Debug log of SkillLineAbility records](https://i.imgur.com/EVSnk9P.png)
+
+Everything seemed to be right. I'm going to copy over a lot more data than I want on this new class, but I can filter it out after getting replicating another class automatically working. Unfortunately I soon discovered I had completely borked the DBC at some point, as creating a rogue resulted in this:
+
+![Broken rogue class](https://i.imgur.com/6jeXRKY.jpg)
+
+I'm getting closer though, just need to iron out the kinks in this program.
