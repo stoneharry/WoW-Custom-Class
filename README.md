@@ -103,3 +103,21 @@ Everything seemed to be right. I'm going to copy over a lot more data than I wan
 ![Broken rogue class](https://i.imgur.com/6jeXRKY.jpg)
 
 I'm getting closer though, just need to iron out the kinks in this program.
+
+## 2019-01-23 ##
+
+I spent some time messing around with modifying the character creation and character selection backgrounds for Engineer. I'm not quite there yet but here's some sample code from my machinations:
+
+![Sample model creation on character creation screen](https://i.imgur.com/rAUgz6c.png)
+
+I also spent some time trying to port Mordred's model tool for the account login screen to instead interact with the character create screen: http://www.modcraft.io/index.php?topic=8694.0
+
+![Mordred's tool on character creation](https://i.imgur.com/VSDgEBL.png)
+
+I also returned to trying to get our new class to talk. It turned out to be a pretty simple problem, I was modifying the existing records instead of writing new ones. A bit of debugging later and we got there:
+
+![Debugging the CharRaceClassInfo DBC writing](https://i.imgur.com/A9OYtdg.png)
+![Now able to talk in game with our custom class](https://i.imgur.com/LmhABxh.jpg)
+
+It's hard to know what to work on next. I am bouncing between different parts at the moment when I find free time. There is still a lot of work to do.
+
