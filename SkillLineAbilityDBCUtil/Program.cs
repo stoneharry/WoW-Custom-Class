@@ -1,5 +1,6 @@
 ﻿using SpellEditor.Sources.DBC;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
@@ -19,6 +20,7 @@ namespace SkillLineAbilityDBCUtil
             var exportPath = "D:/WoW Resources/2019_TrinityCore/DBC Temp/Export/SkillLineAbility.dbc";
             var exportRaceClassPath = "D:/WoW Resources/2019_TrinityCore/DBC Temp/Export/SkillRaceClassInfo.dbc";
             bool useLogFile = true;
+            var logFilePath = "D:/WoW Resources/2019_TrinityCore/DBC Temp/output.txt";
 
             Console.WriteLine($"Processing {path}...");
             DBC = new SkillLineAbilityDBC(path, exportPath);
@@ -38,7 +40,7 @@ namespace SkillLineAbilityDBCUtil
                 Console.WriteLine("\nInput classmask to read:");
                 uint classMask = ReadClassMask();
                 Console.WriteLine("Program output redirected to output.txt");
-                var ostrm = new FileStream("output.txt", FileMode.Create, FileAccess.Write);
+                var ostrm = new FileStream(logFilePath, FileMode.Create, FileAccess.Write);
                 var writer = new StreamWriter(ostrm);
                 Console.SetOut(writer);
                 OutputClassMaskData(classMask);
@@ -52,7 +54,7 @@ namespace SkillLineAbilityDBCUtil
                 Console.WriteLine("Input classmask to write as instead:");
                 uint writeMask = ReadClassMask();
                 Console.WriteLine("Program output redirected to output.txt");
-                var ostrm = new FileStream("output.txt", FileMode.OpenOrCreate, FileAccess.Write);
+                var ostrm = new FileStream(logFilePath, FileMode.OpenOrCreate, FileAccess.Write);
                 var writer = new StreamWriter(ostrm);
                 Console.SetOut(writer);
 
@@ -79,14 +81,28 @@ namespace SkillLineAbilityDBCUtil
                 id = DBC.GetAllRecords().Max(record => (uint)record["Id"]);
                 Console.WriteLine($"Read {records.Count()} records. Writing as new class mask {writeMask} starting with id {id}...");
 
+                var newList = new List<Dictionary<string, object>>(records.Count());
                 list = records.ToList();
                 foreach (var entry in list)
                 {
-                    entry["Id"] = ++id;
-                    entry["classMask"] = writeMask;
+                    var size = entry.Count();
+                    if (size == 0)
+                        continue;
+                    var newRecord = new Dictionary<string, object>(size);
+                    using (var enumer = entry.GetEnumerator())
+                    {
+                        while (enumer.MoveNext())
+                        {
+                            var pair = enumer.Current;
+                            newRecord.Add(pair.Key, pair.Value);
+                        }
+                        newRecord["Id"] = ++id;
+                        newRecord["classMask"] = writeMask;
+                    }
+                    newList.Add(newRecord);
                 }
 
-                RaceClassDBC.AddNewRecords(list);
+                RaceClassDBC.AddNewRecords(newList);
                 RaceClassDBC.SaveChanges();
 
                 Console.WriteLine("Done. New max records: " + RaceClassDBC.GetAllRecords().Max(record => (uint)record["Id"]));
