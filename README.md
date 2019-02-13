@@ -137,5 +137,24 @@ There is no achievement data for this class. At this point I'm wondering what th
 
 Ah. Okay time to work out how I've managed to break the Blizzlike classes while fixing mine. :)
 
+## 2019-02-13 ##
+
+I have not worked on this project for a while. Instead I have been spending my free time working on my Spell Editor project. While working on that I discovered that my structure for the `SpellRaceClassInfo.dbc` was wrong:
+
+![Spell Editor error on SkillRaceClassInfo](https://i.imgur.com/kfQ1tZK.png)
+
+The correct structure is:
+```
+uint Id
+uint SkillLineDbcRecord
+uint RaceMask
+uint ClassMask
+uint Flags
+uint MinLevel
+uint SkillTierId
+uint SkillCostIndex
+```
+
+This explains why my custom class was not behaving as expected. 
 
 
