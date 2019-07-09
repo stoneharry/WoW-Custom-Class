@@ -121,3 +121,40 @@ I also returned to trying to get our new class to talk. It turned out to be a pr
 
 It's hard to know what to work on next. I am bouncing between different parts at the moment when I find free time. There is still a lot of work to do.
 
+I returned to my original idea of leveling myself up and testing the talent and achievement frames:
+
+![Broken talent and achievement frames](https://i.imgur.com/mWSsjcE.jpg)
+
+There are two places in the `Interface\AddOns\Blizzard_AchievementUI\Blizzard_AchievementUI.lua` file we need to modify to fix this. I believe the error happens because `GetAchievementInfo(achievementID)` gets given a bad parameter and so returns `nil`. My fix treats the UI as disabled where nil is returned. Line 1191 and `if not points then return end` and line 1903 change to `if ( points and points > 0 ) then`.
+
+We can then see why the achievementID was invalid:
+
+![Achievement UI working](https://i.imgur.com/O9TKt8L.jpg)
+
+There is no achievement data for this class. At this point I'm wondering what this looks like for a normal class, so I create a new rogue and go to level myself up:
+
+![Broken Blizzard classes](https://i.imgur.com/iFYsQnE.png)
+
+Ah. Okay time to work out how I've managed to break the Blizzlike classes while fixing mine. :)
+
+## 2019-02-13 ##
+
+I have not worked on this project for a while. Instead I have been spending my free time working on my Spell Editor project. While working on that I discovered that my structure for the `SpellRaceClassInfo.dbc` was wrong:
+
+![Spell Editor error on SkillRaceClassInfo](https://i.imgur.com/kfQ1tZK.png)
+
+The correct structure is:
+```
+uint Id
+uint SkillLineDbcRecord
+uint RaceMask
+uint ClassMask
+uint Flags
+uint MinLevel
+uint SkillTierId
+uint SkillCostIndex
+```
+
+This explains why my custom class was not behaving as expected. 
+
+
