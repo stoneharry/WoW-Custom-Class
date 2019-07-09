@@ -1,0 +1,1490 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+    <Script file="PaperDollFrame.lua"/>
+	<Texture name="PaperDollFrameFlyoutTexture" file="Interface\PaperDollInfoFrame\UI-GearManager-Flyout" hidden="true" virtual="true"/>
+    <Button name="PaperDollItemSlotButtonTemplate" inherits="ItemButtonTemplate" virtual="true">
+		<Layers>
+			<Layer level="OVERLAY">
+				<Texture parentKey="ignoreTexture" file="Interface\PaperDollInfoFrame\UI-GearManager-LeaveItem-Transparent">
+					<Size x="40" y="40"/>
+					<Anchors>
+						<Anchor point="CENTER"/>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Cooldown name="$parentCooldown" inherits="CooldownFrameTemplate"/>
+			<Button name="$parentPopoutButton" parentKey="popoutButton" hidden="true">
+				<Size>
+					<AbsDimension x="16" y="32"/>
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativePoint="RIGHT"/>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						PaperDollFrameItemPopoutButton_OnLoad(self);
+					</OnLoad>
+					<OnClick>
+						PaperDollFrameItemPopoutButton_OnClick(self);
+					</OnClick>
+				</Scripts>
+				<NormalTexture file="Interface\PaperDollInfoFrame\UI-GearManager-FlyoutButton"/>
+				<HighlightTexture file="Interface\PaperDollInfoFrame\UI-GearManager-FlyoutButton"/>
+			</Button>
+		</Frames>
+        <Scripts>
+            <OnLoad>
+				PaperDollItemSlotButton_OnLoad(self);
+			</OnLoad>
+            <OnEvent>
+				PaperDollItemSlotButton_OnEvent(self, event, ...);
+			</OnEvent>
+			<OnShow>
+				PaperDollItemSlotButton_OnShow(self);
+			</OnShow>
+			<OnHide>
+				PaperDollItemSlotButton_OnHide(self);
+			</OnHide>
+			<OnClick>
+				if ( IsModifiedClick() ) then
+					PaperDollItemSlotButton_OnModifiedClick(self, button);
+				else
+					PaperDollItemSlotButton_OnClick(self, button);
+				end
+			</OnClick>
+            <OnDragStart>
+				PaperDollItemSlotButton_OnClick(self, "LeftButton");
+			</OnDragStart>
+            <OnReceiveDrag>
+				PaperDollItemSlotButton_OnClick(self, "LeftButton");
+			</OnReceiveDrag>
+            <OnEnter>
+				PaperDollItemSlotButton_OnEnter(self, motion);
+			</OnEnter>
+            <OnLeave>
+				PaperDollItemSlotButton_OnLeave(self, motion);
+			</OnLeave>
+        </Scripts>
+    </Button>
+	<Button name="PaperDollFrameItemFlyoutButtonTemplate" inherits="ItemButtonTemplate" virtual="true">
+		<Frames>
+			<Cooldown name="$parentCooldown" parentKey="cooldown" inherits="CooldownFrameTemplate"/>
+		</Frames>
+		<Scripts>
+			<OnEnter>
+				PaperDollFrameItemFlyoutButton_OnEnter(self, motion);
+			</OnEnter>
+			<OnLeave>
+				GameTooltip:Hide();
+				ResetCursor();
+			</OnLeave>
+			<OnClick>
+				PaperDollFrameItemFlyoutButton_OnClick(self, button, down);
+			</OnClick>
+		</Scripts>
+	</Button>	
+	<Button name="PlayerTitleButtonTemplate" virtual="true">			
+		<Size x="240" y="16"/>
+		<Anchors>
+			<Anchor point="RIGHT">
+				<Offset x="-4" y="0"/>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BORDER">
+				<Texture name="$parentCheck" file="Interface\Buttons\UI-CheckBox-Check" parentKey="check" hidden="true">
+					<Size x="16" y="16"/>
+					<Anchors>
+						<Anchor point="LEFT">
+							<Offset x="8" y="0"/>
+						</Anchor>
+					</Anchors>
+				</Texture>			
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnClick>	
+				PlayerTitleButton_OnClick(self);
+			</OnClick>
+		</Scripts>		
+		<ButtonText name="$parentTitleText" inherits="GameFontHighlightSmallLeft" justifyH="LEFT" parentKey="text">
+					<Anchors>
+			<Anchor point="LEFT" relativeTo="$parentCheck" relativePoint="RIGHT">
+				<Offset x="3" y="0"/>
+			</Anchor>
+					</Anchors>
+		</ButtonText>		
+		<HighlightTexture file="Interface\FriendsFrame\UI-FriendsFrame-HighlightBar" alphaMode="ADD"/>	
+	</Button>		
+	<CheckButton name="GearSetButtonTemplate" inherits="PopupButtonTemplate" virtual="true">
+		<Scripts>
+			<OnLoad>
+				self:RegisterForDrag("LeftButton");
+			</OnLoad>
+			<OnClick>
+				GearSetButton_OnClick(self, button, down);
+			</OnClick>
+			<OnEnter>
+				GearSetButton_OnEnter(self);
+			</OnEnter>
+			<OnLeave>
+				GameTooltip:Hide();
+			</OnLeave>
+			<OnDragStart>
+				if ( self.name and self.name ~= "" ) then
+					PickupEquipmentSetByName(self.name);
+				end
+			</OnDragStart>
+		</Scripts>
+	</CheckButton>
+	
+	<CheckButton name="GearSetPopupButtonTemplate" inherits="SimplePopupButtonTemplate" virtual="true">
+		<Scripts>
+			<OnLoad>
+				local name = self:GetName();
+				self.icon = _G[name .. "Icon"];
+				self.name = _G[name .. "Name"];
+			</OnLoad>
+			<OnClick>
+				GearSetPopupButton_OnClick(self, button, down);
+			</OnClick>
+		</Scripts>
+		<NormalTexture name="$parentIcon" nonBlocking="true">
+			<Size>
+				<AbsDimension x="36" y="36"/>
+			</Size>
+			<Anchors>
+				<Anchor point="CENTER">
+					<Offset>
+						<AbsDimension x="0" y="-1"/>
+					</Offset>
+				</Anchor>
+			</Anchors>
+		</NormalTexture>
+		<HighlightTexture alphaMode="ADD" file="Interface\Buttons\ButtonHilight-Square"/>
+		<CheckedTexture alphaMode="ADD" file="Interface\Buttons\CheckButtonHilight"/>
+	</CheckButton>	
+	
+    <Frame name="StatFrameTemplate" virtual="true">
+        <Size>
+            <AbsDimension x="104" y="13"/>
+        </Size>
+        <Layers>
+            <Layer level="BACKGROUND">
+                <FontString name="$parentLabel" inherits="GameFontNormalSmall">
+                    <Anchors>
+                        <Anchor point="LEFT"/>
+                    </Anchors>
+                </FontString>
+            </Layer>
+        </Layers>
+		<Frames>
+			<Frame name="$parentStat">
+				<Size>
+					<AbsDimension x="30" y="13"/>
+				</Size>
+				<Anchors>
+					<Anchor point="RIGHT"/>
+				</Anchors>
+				<Layers>
+					<Layer level="BACKGROUND">
+						 <FontString name="$parentText" inherits="GameFontHighlightSmall" justifyH="RIGHT">
+							<Anchors>
+								<Anchor point="RIGHT"/>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+			</Frame>
+		</Frames>
+		<Scripts>
+			<OnEnter>
+				PaperDollStatTooltip(self, "player");
+			</OnEnter>
+			<OnLeave>
+				GameTooltip:Hide();
+			</OnLeave>
+		</Scripts>
+    </Frame>
+    <Frame name="MagicResistanceFrameTemplate" virtual="true">
+        <Size>
+            <AbsDimension x="32" y="29"/>
+        </Size>
+		<Scripts>
+			<OnEnter>
+				if ( self.tooltip ) then
+					GameTooltip:SetOwner(self,"ANCHOR_RIGHT");
+					GameTooltip:SetText(self.tooltip, 1.0,1.0,1.0);
+					GameTooltip:AddLine(self.tooltipSubtext, NORMAL_FONT_COLOR.r, NORMAL_FONT_COLOR.g, NORMAL_FONT_COLOR.b, 1);
+					GameTooltip:Show();
+				end
+			</OnEnter>
+			<OnLeave>
+				GameTooltip:Hide();
+			</OnLeave>
+		</Scripts>
+    </Frame>
+    <Frame name="PaperDollFrame" setAllPoints="true" enableMouse="true" parent="CharacterFrame" id="1">
+        <HitRectInsets>
+			<AbsInset left="0" right="30" top="0" bottom="45"/>
+		</HitRectInsets>
+		<Layers>
+            <Layer level="BACKGROUND">
+                <Texture file="Interface\PaperDollInfoFrame\UI-Character-CharacterTab-L1">
+                    <Size>
+                        <AbsDimension x="256" y="256"/>
+                    </Size>
+                    <Anchors>
+                        <Anchor point="TOPLEFT"/>
+                    </Anchors>
+                </Texture>
+                <Texture file="Interface\PaperDollInfoFrame\UI-Character-CharacterTab-R1">
+                    <Size>
+                        <AbsDimension x="128" y="256"/>
+                    </Size>
+                    <Anchors>
+                        <Anchor point="TOPLEFT">
+                            <Offset>
+                                <AbsDimension x="256" y="0"/>
+                            </Offset>
+                        </Anchor>
+                    </Anchors>
+                </Texture>
+                <Texture file="Interface\PaperDollInfoFrame\UI-Character-CharacterTab-BottomLeft">
+                    <Size>
+                        <AbsDimension x="256" y="256"/>
+                    </Size>
+                    <Anchors>
+                        <Anchor point="TOPLEFT">
+                            <Offset>
+                                <AbsDimension x="0" y="-256"/>
+                            </Offset>
+                        </Anchor>
+                    </Anchors>
+                </Texture>
+                <Texture file="Interface\PaperDollInfoFrame\UI-Character-CharacterTab-BottomRight">
+                    <Size>
+                        <AbsDimension x="128" y="256"/>
+                    </Size>
+                    <Anchors>
+                        <Anchor point="TOPLEFT">
+                            <Offset>
+                                <AbsDimension x="256" y="-256"/>
+                            </Offset>
+                        </Anchor>
+                    </Anchors>
+                </Texture>
+                <FontString name="CharacterLevelText" inherits="GameFontNormalSmall" text="Level level race class">
+                    <Anchors>
+                        <Anchor point="TOP" relativeTo="CharacterNameText" relativePoint="BOTTOM">
+                            <Offset>
+                                <AbsDimension x="0" y="-6"/>
+                            </Offset>
+                        </Anchor>
+                    </Anchors>
+                </FontString>
+                <FontString name="CharacterTitleText" inherits="GameFontNormalSmall" text="title of the player" hidden="true">
+                    <Anchors>
+                        <Anchor point="TOP" relativeTo="CharacterLevelText" relativePoint="BOTTOM">
+                            <Offset>
+                                <AbsDimension x="0" y="-1"/>
+                            </Offset>
+                        </Anchor>
+                    </Anchors>
+                </FontString>
+                <FontString name="CharacterGuildText" inherits="GameFontNormalSmall">
+                    <Anchors>
+                        <Anchor point="TOP" relativeTo="CharacterLevelText" relativePoint="BOTTOM">
+                            <Offset>
+                                <AbsDimension x="0" y="-1"/>
+                            </Offset>
+                        </Anchor>
+                    </Anchors>
+                </FontString>
+            </Layer>
+        </Layers>
+        <Frames>
+			<Frame name="PlayerTitleFrame">
+				<Size>
+					<AbsDimension x="210" y="32"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOP" relativeTo="CharacterLevelText" relativePoint="BOTTOM">
+						<Offset>
+							<AbsDimension x="0" y="-9"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture name="$parentLeft" file="Interface\Glues\CharacterCreate\CharacterCreate-LabelFrame">
+							<Size>
+								<AbsDimension x="25" y="50"/>
+							</Size>
+							<Anchors>
+								<Anchor point="TOPLEFT">
+									<Offset>
+										<AbsDimension x="0" y="17"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+							<TexCoords left="0" right="0.1953125" top="0" bottom="1"/>
+						</Texture>
+						<Texture name="$parentMiddle" file="Interface\Glues\CharacterCreate\CharacterCreate-LabelFrame">
+							<Size>
+								<AbsDimension x="160" y="50"/>
+							</Size>
+							<Anchors>
+								<Anchor point="LEFT" relativeTo="$parentLeft" relativePoint="RIGHT"/>
+							</Anchors>
+							<TexCoords left="0.1953125" right="0.8046875" top="0" bottom="1"/>
+						</Texture>
+						<Texture name="$parentRight" file="Interface\Glues\CharacterCreate\CharacterCreate-LabelFrame">
+							<Size>
+								<AbsDimension x="25" y="50"/>
+							</Size>
+							<Anchors>
+								<Anchor point="LEFT" relativeTo="$parentMiddle" relativePoint="RIGHT"/>
+							</Anchors>
+							<TexCoords left="0.8046875" right="1" top="0" bottom="1"/>
+						</Texture>
+						<FontString name="$parentText" inherits="GameFontHighlightSmall" justifyH="LEFT">
+							<Size>
+								<AbsDimension x="140" y="10"/>
+							</Size>
+							<Anchors>
+								<Anchor point="LEFT" relativeTo="$parentLeft">
+									<Offset>
+										<AbsDimension x="27" y="2"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+				<Frames>
+					<Button name="$parentButton">
+						<Size>
+							<AbsDimension x="24" y="24"/>
+						</Size>
+						<Anchors>
+							<Anchor point="TOPRIGHT" relativeTo="$parentRight">
+								<Offset>
+									<AbsDimension x="-16" y="-12"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<Scripts>
+							<OnClick>
+								PlayerTitlePickerFrame_Toggle();								
+							</OnClick>
+						</Scripts>
+						<NormalTexture name="$parentNormalTexture" file="Interface\ChatFrame\UI-ChatIcon-ScrollDown-Up">
+							<Size>
+								<AbsDimension x="24" y="24"/>
+							</Size>
+							<Anchors>
+								<Anchor point="RIGHT"/>
+							</Anchors>
+						</NormalTexture>
+						<PushedTexture name="$parentPushedTexture" file="Interface\ChatFrame\UI-ChatIcon-ScrollDown-Down">
+							<Size>
+								<AbsDimension x="24" y="24"/>
+							</Size>
+							<Anchors>
+								<Anchor point="RIGHT"/>
+							</Anchors>
+						</PushedTexture>
+						<HighlightTexture name="$parentHighlightTexture" file="Interface\Buttons\UI-Common-MouseHilight" alphaMode="ADD">
+							<Size>
+								<AbsDimension x="24" y="24"/>
+							</Size>
+							<Anchors>
+								<Anchor point="RIGHT"/>
+							</Anchors>
+						</HighlightTexture>
+					</Button>
+				</Frames>
+			</Frame>	
+			<Frame name="PlayerTitlePickerFrame" hidden="true">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="PlayerTitleFrame" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="8" y="20"/>
+						</Offset>
+					</Anchor>
+				</Anchors>				
+				<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+					<BackgroundInsets>
+						<AbsInset left="11" right="12" top="12" bottom="11"/>
+					</BackgroundInsets>
+					<TileSize>
+						<AbsValue val="32"/>
+					</TileSize>
+					<EdgeSize>
+						<AbsValue val="32"/>
+					</EdgeSize>
+				</Backdrop>				
+				<Frames>
+					<ScrollFrame name="PlayerTitlePickerScrollFrame" inherits="HybridScrollFrameTemplate">
+						<Size>
+							<AbsDimension x="100" y="16"/>
+						</Size>
+						<Anchors>
+							<Anchor point="TOPLEFT">
+								<Offset>
+									<AbsDimension x="10" y="-15"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<Frames>
+							<Slider name="$parentScrollBar" inherits="HybridScrollBarTemplate" parentKey="scrollBar">
+								<Anchors>
+									<Anchor point="TOPLEFT" relativePoint="TOPRIGHT">
+										<Offset x="0" y="-13"/>
+									</Anchor>
+									<Anchor point="BOTTOMLEFT" relativePoint="BOTTOMRIGHT">
+										<Offset x="0" y="14"/>
+									</Anchor>
+								</Anchors>
+							</Slider>
+						</Frames>
+						<Scripts>
+							<OnLoad function="PlayerTitlePickerScrollFrame_OnLoad"/>
+						</Scripts>
+					</ScrollFrame>
+				</Frames>
+			</Frame>			
+			<PlayerModel name="CharacterModelFrame">
+                <Size>
+                    <AbsDimension x="233" y="215"/>
+                </Size>
+                <Anchors>
+                    <Anchor point="TOPLEFT">
+                        <Offset>
+                            <AbsDimension x="65" y="-78"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+                <Scripts>
+                    <OnLoad>
+                        Model_OnLoad(self);
+						self:RegisterEvent("DISPLAY_SIZE_CHANGED");
+                    </OnLoad>
+					<OnEvent>
+						self:RefreshUnit();
+					</OnEvent>
+                    <OnUpdate function="Model_OnUpdate"/>
+					<OnMouseUp function="CharacterModelFrame_OnMouseUp"/>
+					<OnReceiveDrag function="CharacterModelFrame_OnMouseUp"/>
+                </Scripts>
+				<Frames>
+					<Button name="CharacterModelFrameRotateLeftButton">
+						<Size>
+							<AbsDimension x="35" y="35"/>
+						</Size>
+						<Anchors>
+							<Anchor point="TOPLEFT" relativePoint="TOPLEFT"/>
+						</Anchors>
+						<Scripts>
+							<OnLoad>
+								self:RegisterForClicks("LeftButtonDown", "LeftButtonUp");
+							</OnLoad>
+							<OnClick>
+								Model_RotateLeft(self:GetParent());
+							</OnClick>
+						</Scripts>
+						<NormalTexture file="Interface\Buttons\UI-RotationLeft-Button-Up"/>
+						<PushedTexture file="Interface\Buttons\UI-RotationLeft-Button-Down"/>
+						<HighlightTexture file="Interface\Buttons\ButtonHilight-Round" alphaMode="ADD"/>
+					</Button>
+					<Button name="CharacterModelFrameRotateRightButton">
+						<Size>
+							<AbsDimension x="35" y="35"/>
+						</Size>
+						<Anchors>
+							<Anchor point="TOPLEFT" relativeTo="CharacterModelFrameRotateLeftButton" relativePoint="TOPRIGHT"/>
+						</Anchors>
+						<Scripts>
+							<OnLoad>
+								self:RegisterForClicks("LeftButtonDown", "LeftButtonUp");
+							</OnLoad>
+							<OnClick>
+								Model_RotateRight(self:GetParent());
+							</OnClick>
+						</Scripts>
+						<NormalTexture file="Interface\Buttons\UI-RotationRight-Button-Up"/>
+						<PushedTexture file="Interface\Buttons\UI-RotationRight-Button-Down"/>
+						<HighlightTexture file="Interface\Buttons\ButtonHilight-Round" alphaMode="ADD"/>
+					</Button>
+				</Frames>
+            </PlayerModel>
+            <Frame name="CharacterAttributesFrame">
+                <Size>
+                    <AbsDimension x="230" y="78"/>
+                </Size>
+                <Anchors>
+                    <Anchor point="TOPLEFT">
+                        <Offset>
+                            <AbsDimension x="67" y="-291"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+                <Layers>
+                    <Layer level="BACKGROUND">
+                         <Texture name="PlayerStatLeftTop" file="Interface\PaperDollInfoFrame\UI-Character-StatBackground">
+                            <Size>
+                                <AbsDimension x="115" y="16"/>
+                            </Size>
+                           <Anchors>
+                                <Anchor point="TOPLEFT">
+                                    <Offset>
+                                        <AbsDimension x="0" y="0"/>
+                                    </Offset>
+                                </Anchor>
+                            </Anchors>
+                            <TexCoords left="0" right="0.8984375" top="0" bottom="0.125"/>
+                        </Texture>
+						<Texture name="PlayerStatLeftMiddle" file="Interface\PaperDollInfoFrame\UI-Character-StatBackground">
+                            <Size>
+                                <AbsDimension x="115" y="53"/>
+                            </Size>
+                            <Anchors>
+                                <Anchor point="TOPLEFT" relativeTo="PlayerStatLeftTop" relativePoint="BOTTOMLEFT">
+                                    <Offset>
+                                        <AbsDimension x="0" y="0"/>
+                                    </Offset>
+                                </Anchor>
+                            </Anchors>
+                            <TexCoords left="0" right="0.8984375" top="0.125" bottom="0.1953125"/>
+                        </Texture>
+						<Texture name="PlayerStatLeftBottom" file="Interface\PaperDollInfoFrame\UI-Character-StatBackground">
+                            <Size>
+                                <AbsDimension x="115" y="16"/>
+                            </Size>
+                            <Anchors>
+                                <Anchor point="TOPLEFT" relativeTo="PlayerStatLeftMiddle" relativePoint="BOTTOMLEFT">
+                                    <Offset>
+                                        <AbsDimension x="0" y="0"/>
+                                    </Offset>
+                                </Anchor>
+                            </Anchors>
+                            <TexCoords left="0" right="0.8984375" top="0.484375" bottom="0.609375"/>
+                        </Texture>
+                       <Texture name="PlayerStatRightTop" file="Interface\PaperDollInfoFrame\UI-Character-StatBackground">
+                            <Size>
+                                <AbsDimension x="115" y="16"/>
+                            </Size>
+                           <Anchors>
+                                <Anchor point="TOPLEFT" relativeTo="PlayerStatLeftTop" relativePoint="TOPRIGHT">
+                                    <Offset>
+                                        <AbsDimension x="0" y="0"/>
+                                    </Offset>
+                                </Anchor>
+                            </Anchors>
+                            <TexCoords left="0" right="0.8984375" top="0" bottom="0.125"/>
+                        </Texture>
+						<Texture name="PlayerStatRightMiddle" file="Interface\PaperDollInfoFrame\UI-Character-StatBackground">
+                            <Size>
+                                <AbsDimension x="115" y="53"/>
+                            </Size>
+                            <Anchors>
+                                <Anchor point="TOPLEFT" relativeTo="PlayerStatRightTop" relativePoint="BOTTOMLEFT">
+                                    <Offset>
+                                        <AbsDimension x="0" y="0"/>
+                                    </Offset>
+                                </Anchor>
+                            </Anchors>
+                            <TexCoords left="0" right="0.8984375" top="0.125" bottom="0.1953125"/>
+                        </Texture>
+						<Texture name="PlayerStatRightBottom" file="Interface\PaperDollInfoFrame\UI-Character-StatBackground">
+                            <Size>
+                                <AbsDimension x="115" y="16"/>
+                            </Size>
+                            <Anchors>
+                                <Anchor point="TOPLEFT" relativeTo="PlayerStatRightMiddle" relativePoint="BOTTOMLEFT">
+                                    <Offset>
+                                        <AbsDimension x="0" y="0"/>
+                                    </Offset>
+                                </Anchor>
+                            </Anchors>
+                            <TexCoords left="0" right="0.8984375" top="0.484375" bottom="0.609375"/>
+                        </Texture>
+                    </Layer>
+                </Layers>
+                <Frames>
+                    <Frame name="PlayerStatFrameLeft1" inherits="StatFrameTemplate" id="1">
+                        <Anchors>
+                            <Anchor point="TOPLEFT">
+                                <Offset>
+                                    <AbsDimension x="6" y="-3"/>
+                                </Offset>
+                            </Anchor>
+                        </Anchors>
+                    </Frame>
+                    <Frame name="PlayerStatFrameLeft2" inherits="StatFrameTemplate" id="2">
+                        <Anchors>
+                            <Anchor point="TOPLEFT" relativeTo="PlayerStatFrameLeft1" relativePoint="BOTTOMLEFT">
+                                <Offset>
+                                    <AbsDimension x="0" y="0"/>
+                                </Offset>
+                            </Anchor>
+                        </Anchors>
+                    </Frame>
+                    <Frame name="PlayerStatFrameLeft3" inherits="StatFrameTemplate" id="3">
+                        <Anchors>
+                            <Anchor point="TOPLEFT" relativeTo="PlayerStatFrameLeft2" relativePoint="BOTTOMLEFT">
+                                <Offset>
+                                    <AbsDimension x="0" y="0"/>
+                                </Offset>
+                            </Anchor>
+                        </Anchors>
+                    </Frame>
+                    <Frame name="PlayerStatFrameLeft4" inherits="StatFrameTemplate" id="4">
+                        <Anchors>
+                            <Anchor point="TOPLEFT" relativeTo="PlayerStatFrameLeft3" relativePoint="BOTTOMLEFT">
+                                <Offset>
+                                    <AbsDimension x="0" y="0"/>
+                                </Offset>
+                            </Anchor>
+                        </Anchors>
+                    </Frame>
+                    <Frame name="PlayerStatFrameLeft5" inherits="StatFrameTemplate" id="5">
+                        <Anchors>
+                            <Anchor point="TOPLEFT" relativeTo="PlayerStatFrameLeft4" relativePoint="BOTTOMLEFT">
+                                <Offset>
+                                    <AbsDimension x="0" y="0"/>
+                                </Offset>
+                            </Anchor>
+                        </Anchors>
+                    </Frame>
+					<Frame name="PlayerStatFrameLeft6" inherits="StatFrameTemplate">
+                        <Anchors>
+                            <Anchor point="TOPLEFT" relativeTo="PlayerStatFrameLeft5" relativePoint="BOTTOMLEFT">
+                                <Offset>
+                                    <AbsDimension x="0" y="0"/>
+                                </Offset>
+                            </Anchor>
+                        </Anchors>
+                    </Frame>
+                   <Frame name="PlayerStatFrameRight1" inherits="StatFrameTemplate" id="1">
+                        <Anchors>
+                            <Anchor point="TOPLEFT" relativeTo="PlayerStatRightTop">
+                                <Offset>
+                                    <AbsDimension x="6" y="-3"/>
+                                </Offset>
+                            </Anchor>
+                        </Anchors>
+                    </Frame>
+                    <Frame name="PlayerStatFrameRight2" inherits="StatFrameTemplate" id="2">
+                        <Anchors>
+                            <Anchor point="TOPLEFT" relativeTo="PlayerStatFrameRight1" relativePoint="BOTTOMLEFT">
+                                <Offset>
+                                    <AbsDimension x="0" y="0"/>
+                                </Offset>
+                            </Anchor>
+                        </Anchors>
+                    </Frame>
+                    <Frame name="PlayerStatFrameRight3" inherits="StatFrameTemplate" id="3">
+                        <Anchors>
+                            <Anchor point="TOPLEFT" relativeTo="PlayerStatFrameRight2" relativePoint="BOTTOMLEFT">
+                                <Offset>
+                                    <AbsDimension x="0" y="0"/>
+                                </Offset>
+                            </Anchor>
+                        </Anchors>
+                    </Frame>
+                    <Frame name="PlayerStatFrameRight4" inherits="StatFrameTemplate" id="4">
+                        <Anchors>
+                            <Anchor point="TOPLEFT" relativeTo="PlayerStatFrameRight3" relativePoint="BOTTOMLEFT">
+                                <Offset>
+                                    <AbsDimension x="0" y="0"/>
+                                </Offset>
+                            </Anchor>
+                        </Anchors>
+                    </Frame>
+                    <Frame name="PlayerStatFrameRight5" inherits="StatFrameTemplate" id="5">
+                        <Anchors>
+                            <Anchor point="TOPLEFT" relativeTo="PlayerStatFrameRight4" relativePoint="BOTTOMLEFT">
+                                <Offset>
+                                    <AbsDimension x="0" y="0"/>
+                                </Offset>
+                            </Anchor>
+                        </Anchors>
+                    </Frame>
+					<Frame name="PlayerStatFrameRight6" inherits="StatFrameTemplate">
+                        <Anchors>
+                            <Anchor point="TOPLEFT" relativeTo="PlayerStatFrameRight5" relativePoint="BOTTOMLEFT">
+                                <Offset>
+                                    <AbsDimension x="0" y="0"/>
+                                </Offset>
+                            </Anchor>
+                        </Anchors>
+                    </Frame>
+					<Frame name="PlayerStatFrameLeftDropDown" inherits="UIDropDownMenuTemplate" enableMouse="true">
+						<Anchors>
+							<Anchor point="BOTTOMLEFT" relativeTo="PlayerStatLeftTop" relativePoint="TOPLEFT">
+								<Offset>
+									<AbsDimension x="-17" y="-8"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<Scripts>
+							<OnLoad function="PlayerStatFrameLeftDropDown_OnLoad"/>
+							<OnShow function="PlayerStatFrameLeftDropDown_OnShow"/>
+						</Scripts>
+					</Frame>
+					<Frame name="PlayerStatFrameRightDropDown" inherits="UIDropDownMenuTemplate" enableMouse="true">
+						<Anchors>
+							<Anchor point="BOTTOMLEFT" relativeTo="PlayerStatRightTop" relativePoint="TOPLEFT">
+								<Offset>
+									<AbsDimension x="-17" y="-8"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<Scripts>
+							<OnLoad function="PlayerStatFrameRightDropDown_OnLoad"/>
+							<OnShow function="PlayerStatFrameRightDropDown_OnShow"/>
+						</Scripts>
+					</Frame>
+                </Frames>
+            </Frame>
+            <Frame name="CharacterResistanceFrame">
+                <Size>
+                    <AbsDimension x="32" y="160"/>
+                </Size>
+                <Anchors>
+                    <Anchor point="TOPRIGHT" relativeTo="PaperDollFrame" relativePoint="TOPLEFT">
+                        <Offset>
+                            <AbsDimension x="297" y="-77"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+                <Frames>
+                    <Frame name="MagicResFrame1" inherits="MagicResistanceFrameTemplate" id="6">
+                        <Anchors>
+                            <Anchor point="TOP" relativeTo="CharacterResistanceFrame" relativePoint="TOP"/>
+                        </Anchors>
+                        <Layers>
+                            <Layer level="BACKGROUND">
+                                <Texture file="Interface\PaperDollInfoFrame\UI-Character-ResistanceIcons">
+                                    <TexCoords left="0" right="1.0" top="0.2265625" bottom="0.33984375"/>
+                                </Texture>
+                                <FontString name="MagicResText1" inherits="GameFontHighlightSmall" text="X">
+                                    <Anchors>
+                                        <Anchor point="BOTTOM">
+                                            <Offset>
+                                                <AbsDimension x="0" y="3"/>
+                                            </Offset>
+                                        </Anchor>
+                                    </Anchors>
+                                </FontString>
+                            </Layer>
+                        </Layers>
+                    </Frame>
+                    <Frame name="MagicResFrame2" inherits="MagicResistanceFrameTemplate" id="2">
+                        <Anchors>
+                            <Anchor point="TOP" relativeTo="MagicResFrame1" relativePoint="BOTTOM"/>
+                        </Anchors>
+                        <Layers>
+                            <Layer level="BACKGROUND">
+                                <Texture file="Interface\PaperDollInfoFrame\UI-Character-ResistanceIcons">
+                                    <TexCoords left="0" right="1.0" top="0" bottom="0.11328125"/>
+                                </Texture>
+                                <FontString name="MagicResText2" inherits="GameFontHighlightSmall" text="X">
+                                    <Anchors>
+                                        <Anchor point="BOTTOM">
+                                            <Offset>
+                                                <AbsDimension x="0" y="3"/>
+                                            </Offset>
+                                        </Anchor>
+                                    </Anchors>
+                                </FontString>
+                            </Layer>
+                        </Layers>
+                    </Frame>
+                    <Frame name="MagicResFrame3" inherits="MagicResistanceFrameTemplate" id="3">
+                        <Anchors>
+                            <Anchor point="TOP" relativeTo="MagicResFrame2" relativePoint="BOTTOM"/>
+                        </Anchors>
+                        <Layers>
+                            <Layer level="BACKGROUND">
+                                <Texture file="Interface\PaperDollInfoFrame\UI-Character-ResistanceIcons">
+                                    <TexCoords left="0" right="1.0" top="0.11328125" bottom="0.2265625"/>
+                                </Texture>
+                                <FontString name="MagicResText3" inherits="GameFontHighlightSmall" text="X">
+                                    <Anchors>
+                                        <Anchor point="BOTTOM">
+                                            <Offset>
+                                                <AbsDimension x="0" y="3"/>
+                                            </Offset>
+                                        </Anchor>
+                                    </Anchors>
+                                </FontString>
+                            </Layer>
+                        </Layers>
+                    </Frame>
+                    <Frame name="MagicResFrame4" inherits="MagicResistanceFrameTemplate" id="4">
+                        <Anchors>
+                            <Anchor point="TOP" relativeTo="MagicResFrame3" relativePoint="BOTTOM"/>
+                        </Anchors>
+                        <Layers>
+                            <Layer level="BACKGROUND">
+                                <Texture file="Interface\PaperDollInfoFrame\UI-Character-ResistanceIcons">
+                                    <TexCoords left="0" right="1.0" top="0.33984375" bottom="0.453125"/>
+                                </Texture>
+                                <FontString name="MagicResText4" inherits="GameFontHighlightSmall" text="X">
+                                    <Anchors>
+                                        <Anchor point="BOTTOM">
+                                            <Offset>
+                                                <AbsDimension x="0" y="3"/>
+                                            </Offset>
+                                        </Anchor>
+                                    </Anchors>
+                                </FontString>
+                            </Layer>
+                        </Layers>
+                    </Frame>
+                    <Frame name="MagicResFrame5" inherits="MagicResistanceFrameTemplate" id="5">
+                        <Anchors>
+                            <Anchor point="TOP" relativeTo="MagicResFrame4" relativePoint="BOTTOM"/>
+                        </Anchors>
+                        <Layers>
+                            <Layer level="BACKGROUND">
+                                <Texture file="Interface\PaperDollInfoFrame\UI-Character-ResistanceIcons">
+                                    <TexCoords left="0" right="1.0" top="0.453125" bottom="0.56640625"/>
+                                </Texture>
+                                <FontString name="MagicResText5" inherits="GameFontHighlightSmall" text="X">
+                                    <Anchors>
+                                        <Anchor point="BOTTOM">
+                                            <Offset>
+                                                <AbsDimension x="0" y="3"/>
+                                            </Offset>
+                                        </Anchor>
+                                    </Anchors>
+                                </FontString>
+                            </Layer>
+                        </Layers>
+                    </Frame>
+                </Frames>
+            </Frame>
+            <Button name="CharacterHeadSlot" inherits="PaperDollItemSlotButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOPLEFT">
+                        <Offset>
+                            <AbsDimension x="21" y="-74"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+            <Button name="CharacterNeckSlot" inherits="PaperDollItemSlotButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativeTo="CharacterHeadSlot" relativePoint="BOTTOMLEFT">
+                        <Offset>
+                            <AbsDimension x="0" y="-4"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+            <Button name="CharacterShoulderSlot" inherits="PaperDollItemSlotButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativeTo="CharacterNeckSlot" relativePoint="BOTTOMLEFT">
+                        <Offset>
+                            <AbsDimension x="0" y="-4"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+            <Button name="CharacterBackSlot" inherits="PaperDollItemSlotButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativeTo="CharacterShoulderSlot" relativePoint="BOTTOMLEFT">
+                        <Offset>
+                            <AbsDimension x="0" y="-4"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+            <Button name="CharacterChestSlot" inherits="PaperDollItemSlotButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativeTo="CharacterBackSlot" relativePoint="BOTTOMLEFT">
+                        <Offset>
+                            <AbsDimension x="0" y="-4"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+            <Button name="CharacterShirtSlot" inherits="PaperDollItemSlotButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativeTo="CharacterChestSlot" relativePoint="BOTTOMLEFT">
+                        <Offset>
+                            <AbsDimension x="0" y="-4"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+            <Button name="CharacterTabardSlot" inherits="PaperDollItemSlotButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativeTo="CharacterShirtSlot" relativePoint="BOTTOMLEFT">
+                        <Offset>
+                            <AbsDimension x="0" y="-4"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+            <Button name="CharacterWristSlot" inherits="PaperDollItemSlotButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativeTo="CharacterTabardSlot" relativePoint="BOTTOMLEFT">
+                        <Offset>
+                            <AbsDimension x="0" y="-4"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+            <Button name="CharacterHandsSlot" inherits="PaperDollItemSlotButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOPLEFT">
+                        <Offset>
+                            <AbsDimension x="305" y="-74"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+            <Button name="CharacterWaistSlot" inherits="PaperDollItemSlotButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativeTo="CharacterHandsSlot" relativePoint="BOTTOMLEFT">
+                        <Offset>
+                            <AbsDimension x="0" y="-4"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+            <Button name="CharacterLegsSlot" inherits="PaperDollItemSlotButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativeTo="CharacterWaistSlot" relativePoint="BOTTOMLEFT">
+                        <Offset>
+                            <AbsDimension x="0" y="-4"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+            <Button name="CharacterFeetSlot" inherits="PaperDollItemSlotButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativeTo="CharacterLegsSlot" relativePoint="BOTTOMLEFT">
+                        <Offset>
+                            <AbsDimension x="0" y="-4"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+            <Button name="CharacterFinger0Slot" inherits="PaperDollItemSlotButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativeTo="CharacterFeetSlot" relativePoint="BOTTOMLEFT">
+                        <Offset>
+                            <AbsDimension x="0" y="-4"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+            <Button name="CharacterFinger1Slot" inherits="PaperDollItemSlotButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativeTo="CharacterFinger0Slot" relativePoint="BOTTOMLEFT">
+                        <Offset>
+                            <AbsDimension x="0" y="-4"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+            <Button name="CharacterTrinket0Slot" inherits="PaperDollItemSlotButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativeTo="CharacterFinger1Slot" relativePoint="BOTTOMLEFT">
+                        <Offset>
+                            <AbsDimension x="0" y="-4"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+            <Button name="CharacterTrinket1Slot" inherits="PaperDollItemSlotButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativeTo="CharacterTrinket0Slot" relativePoint="BOTTOMLEFT">
+                        <Offset>
+                            <AbsDimension x="0" y="-4"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+            <Button name="CharacterMainHandSlot" inherits="PaperDollItemSlotButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativePoint="BOTTOMLEFT">
+                        <Offset>
+                            <AbsDimension x="122" y="127"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+            <Button name="CharacterSecondaryHandSlot" inherits="PaperDollItemSlotButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativeTo="CharacterMainHandSlot" relativePoint="TOPRIGHT">
+                        <Offset>
+                            <AbsDimension x="5" y="0"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+            <Button name="CharacterRangedSlot" inherits="PaperDollItemSlotButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativeTo="CharacterSecondaryHandSlot" relativePoint="TOPRIGHT">
+                        <Offset>
+                            <AbsDimension x="5" y="0"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+            <Button name="CharacterAmmoSlot">
+				<Size>
+					<AbsDimension x="27" y="27"/>
+				</Size>
+				<Anchors>
+                    <Anchor point="LEFT" relativeTo="CharacterRangedSlot" relativePoint="RIGHT">
+                        <Offset>
+                            <AbsDimension x="15" y="0"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+				<Layers>
+					<Layer level="BACKGROUND">
+						<Texture file="Interface\PaperdollInfoFrame\UI-Character-AmmoSlot">
+							<Size>
+								<AbsDimension x="41" y="41"/>
+							</Size>
+							<Anchors>
+								<Anchor point="CENTER">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+							<TexCoords left="0" right="0.640625" top="0" bottom="0.640625"/>
+						</Texture>
+					</Layer>
+					<Layer level="BORDER">
+						<Texture name="$parentIconTexture"/>
+						<FontString name="$parentCount" inherits="NumberFontNormal" justifyH="RIGHT" hidden="true">
+							<Anchors>
+								<Anchor point="BOTTOMRIGHT">
+									<Offset>
+										<AbsDimension x="-1" y="2"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<FontString name="$parentStock" inherits="NumberFontNormalYellow" justifyH="LEFT" hidden="true">
+							<Anchors>
+								<Anchor point="TOPLEFT">
+									<Offset>
+										<AbsDimension x="0" y="-2"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+					<Layer level="OVERLAY">
+						<Texture file="Interface\PaperdollInfoFrame\UI-Character-AmmoSlot">
+							<Size>
+								<AbsDimension x="23" y="41"/>
+							</Size>
+							<Anchors>
+								<Anchor point="CENTER">
+									<Offset>
+										<AbsDimension x="-22" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+							<TexCoords left="0.640625" right="1.0" top="0" bottom="0.640625"/>
+						</Texture>
+					</Layer>
+				</Layers>
+				<Frames>
+					<Cooldown name="$parentCooldown" inherits="CooldownFrameTemplate"/>
+				</Frames>
+				<Scripts>
+					<OnLoad>
+						self.maxDisplayCount = 999;
+						PaperDollItemSlotButton_OnLoad(self);
+					</OnLoad>
+					<OnEvent>
+						if ( event == "MERCHANT_UPDATE" ) then
+							-- update ammo amount shown in frame after selling ammo to a vendor
+							PaperDollItemSlotButton_Update(self);
+						elseif ( event == "PLAYERBANKSLOTS_CHANGED" ) then
+							-- update ammo amount shown in frame after moving ammo to the bank
+							PaperDollItemSlotButton_Update(self);
+						else
+							PaperDollItemSlotButton_OnEvent(self, event, ...);
+						end
+					</OnEvent>
+					<OnShow>
+						PaperDollItemSlotButton_OnShow(self);
+						self:RegisterEvent("MERCHANT_UPDATE");
+						self:RegisterEvent("PLAYERBANKSLOTS_CHANGED");
+					</OnShow>
+					<OnHide>
+						PaperDollItemSlotButton_OnHide(self);
+						self:UnregisterEvent("MERCHANT_UPDATE");
+						self:UnregisterEvent("PLAYERBANKSLOTS_CHANGED");
+					</OnHide>
+					<OnClick function="PaperDollItemSlotButton_OnClick"/>
+					<OnDragStart>
+						PaperDollItemSlotButton_OnClick(self, "LeftButton", 1);
+					</OnDragStart>
+					<OnReceiveDrag>
+						PaperDollItemSlotButton_OnClick(self, "LeftButton", 1);
+					</OnReceiveDrag>
+					<OnEnter function="PaperDollItemSlotButton_OnEnter"/>
+					<OnLeave function="GameTooltip_HideResetCursor"/>
+				</Scripts>
+				<NormalTexture name="$parentNormalTexture" file="Interface\Buttons\UI-Quickslot2">
+					<Size>
+						<AbsDimension x="47" y="47"/>
+					</Size>
+					<Anchors>
+						<Anchor point="CENTER">
+							<Offset>
+								<AbsDimension x="0" y="-1"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</NormalTexture>
+				<PushedTexture file="Interface\Buttons\UI-Quickslot-Depress"/>
+				<HighlightTexture file="Interface\Buttons\ButtonHilight-Square" alphaMode="ADD"/>
+			</Button>
+			<Button name="GearManagerToggleButton" hidden="true">
+				<Size x="32" y="32"/>
+				<Anchors>
+					<Anchor point="TOPRIGHT">
+						<Offset x="-44" y="-39"/>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnEnter>
+						GameTooltip_AddNewbieTip(self, EQUIPMENT_MANAGER, 1.0, 1.0, 1.0, NEWBIE_TOOLTIP_EQUIPMENT_MANAGER);
+					</OnEnter>
+					<OnLeave function="GameTooltip_Hide"/>
+					<OnLoad>
+						self.icon = _G[self:GetName() .. "Icon"];
+					</OnLoad>
+					<OnClick>
+						if ( GearManagerDialog:IsShown() ) then
+							GearManagerDialog:Hide();
+						else
+							GearManagerDialog:Show();
+						end
+					</OnClick>
+				</Scripts>
+				<NormalTexture file="Interface\PaperDollInfoFrame\UI-GearManager-Button"/>
+				<PushedTexture file="Interface\PaperDollInfoFrame\UI-GearManager-Button-Pushed"/>
+				<HighlightTexture file="Interface\Buttons\UI-MicroButton-Hilight" alphaMode="ADD">
+					<TexCoords left="0" right="1" top="0.390625" bottom="0.96875"/>
+				</HighlightTexture>
+			</Button>				
+		</Frames>
+        <Scripts>
+            <OnLoad function="PaperDollFrame_OnLoad"/>
+            <OnEvent function="PaperDollFrame_OnEvent"/>
+            <OnShow function="PaperDollFrame_OnShow"/>
+			<OnHide function="PaperDollFrame_OnHide"/>
+        </Scripts>
+    </Frame>
+	<Frame name="PaperDollFrameItemFlyout" parent="PaperDollFrame" hidden="true" enableMouse="false" frameStrata="HIGH">
+		<Size x="43" y="43"/>
+		<Layers>
+			<Layer level="OVERLAY">
+				<Texture name="$parentHighlight" file="Interface\PaperDollInfoFrame\UI-GearManager-ItemButton-Highlight">
+					<Size x="50" y="50"/>
+					<Anchors>
+						<Anchor point="LEFT">
+							<Offset x="-4" y="0"/>
+						</Anchor>
+					</Anchors>
+					<TexCoords left="0" right="0.78125" top="0" bottom="0.78125"/>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Frame name="$parentButtons" frameStrata="HIGH" enableMouse="true" parentKey="buttonFrame" clampedToScreen="true">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativePoint="TOPRIGHT">
+						<Offset x="0" y="0"/>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="BACKGROUND">
+						<Texture parentKey="bg1" inherits="PaperDollFrameFlyoutTexture">
+							<Anchors>
+								<Anchor point="TOPLEFT">
+									<Offset x="-5" y="4"/>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>					
+				</Layers>
+				<Scripts>
+					<OnLoad>
+						self.numBGs = 1;
+					</OnLoad>
+				</Scripts>
+			</Frame>
+		</Frames>
+		<Scripts>
+			<OnLoad>
+				self.buttons = {};
+			</OnLoad>
+			<OnUpdate function="PaperDollFrameItemFlyout_OnUpdate"/>
+			<OnShow function="PaperDollFrameItemFlyout_OnShow"/>
+			<OnHide function="PaperDollFrameItemFlyout_OnHide"/>
+			<OnEvent function="PaperDollFrameItemFlyout_OnEvent"/>
+		</Scripts>
+	</Frame>
+	
+	<Frame name="GearManagerDialog" enableMouse="true" parent="PaperDollFrame" inherits="UIPanelDialogTemplate" hidden="true" frameStrata="MEDIUM" toplevel="true">
+		<Size x="261" y="155"/>
+		<Anchors>
+			<Anchor point="TOPLEFT" relativePoint="TOPRIGHT">
+				<Offset x="-38" y="-10"/>
+			</Anchor>
+		</Anchors>
+		<Frames>
+			<Frame name="SetContainer">
+			
+			</Frame>
+			<Button name="$parentDeleteSet" text="DELETE" inherits="UIPanelButtonTemplate">
+				<Size x="78" y="22"/>
+				<Anchors>
+					<Anchor point="BOTTOMLEFT">
+						<Offset x="11" y="12"/>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick function="GearManagerDialogDeleteSet_OnClick"/>
+				</Scripts>
+			</Button>
+			<Button name="$parentEquipSet" text="EQUIPSET_EQUIP" inherits="UIPanelButtonTemplate">
+				<Size x="78" y="22"/>
+				<Anchors>
+					<Anchor point="BOTTOMLEFT">
+						<Offset x="93" y="12"/>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick function="GearManagerDialogEquipSet_OnClick"/>
+				</Scripts>
+			</Button>
+			<Button name="$parentSaveSet" text="SAVE" inherits="UIPanelButtonTemplate">
+				<Size x="78" y="22"/>
+				<Anchors>
+					<Anchor point="BOTTOMRIGHT">
+						<Offset x="-8" y="12"/>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick function="GearManagerDialogSaveSet_OnClick"/>
+				</Scripts>
+			</Button>
+			<Frame name="$parentPopup" hidden="true">
+				<Size x="297" y="254"/>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativePoint="BOTTOMLEFT">
+						<Offset x="0" y="-25"/>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="BACKGROUND">
+						<Texture file="Interface\MacroFrame\MacroPopup-TopLeft">
+							<Size x="256" y="212"/>
+							<Anchors>
+								<Anchor point="TOPLEFT"/>
+							</Anchors>
+							<TexCoords left="0" right="1" top="0" bottom="0.828125"/>
+						</Texture>
+						<Texture file="Interface\MacroFrame\MacroPopup-TopRight">
+							<Size x="64" y="212"/>
+							<Anchors>
+								<Anchor point="TOPLEFT">
+									<Offset x="256" y="0"/>
+								</Anchor>
+							</Anchors>
+							<TexCoords left="0" right="1" top="0" bottom="0.828125"/>
+						</Texture>
+						<Texture file="Interface\MacroFrame\MacroPopup-BotLeft">
+							<Size x="256" y="64"/>
+							<Anchors>
+								<Anchor point="TOPLEFT">
+									<Offset x="0" y="-212"/>
+								</Anchor>
+							</Anchors>
+						</Texture>
+						<Texture file="Interface\MacroFrame\MacroPopup-BotRight">
+							<Size x="64" y="64"/>
+							<Anchors>
+								<Anchor point="TOPLEFT">
+									<Offset x="256" y="-212"/>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>	
+					<Layer level="ARTWORK">
+						<FontString inherits="GameFontHighlightSmall" text="GEARSETS_POPUP_TEXT">
+							<Anchors>
+								<Anchor point="TOPLEFT">
+									<Offset x="24" y="-21"/>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<FontString inherits="GameFontHighlightSmall" text="MACRO_POPUP_CHOOSE_ICON">
+							<Anchors>
+								<Anchor point="TOPLEFT">
+									<Offset x="24" y="-69"/>
+								</Anchor>
+							</Anchors>
+						</FontString>					
+					</Layer>
+				</Layers>
+				<Frames>
+					<ScrollFrame name="$parentScrollFrame" inherits="FauxScrollFrameTemplate">
+						<Size>
+							<AbsDimension x="296" y="151"/>
+						</Size>
+						<Anchors>
+							<Anchor point="TOPRIGHT" relativeTo="$parent" relativePoint="TOPRIGHT">
+								<Offset>
+									<AbsDimension x="-39" y="-67"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<Layers>
+							<Layer level="BACKGROUND">
+								<Texture file="Interface\ClassTrainerFrame\UI-ClassTrainer-ScrollBar">
+									<Size x="30" y="120"/>
+									<Anchors>
+										<Anchor point="TOPLEFT" relativePoint="TOPRIGHT">
+											<Offset x="-3" y="2"/>
+										</Anchor>
+									</Anchors>
+									<TexCoords left="0" right="0.46875" top="0.0234375" bottom="0.9609375"/>
+								</Texture>
+								<Texture file="Interface\ClassTrainerFrame\UI-ClassTrainer-ScrollBar">
+									<Size x="30" y="79"/>
+									<Anchors>
+										<Anchor point="BOTTOMLEFT" relativePoint="BOTTOMRIGHT">
+											<Offset x="-3" y="-2"/>
+										</Anchor>
+									</Anchors>
+									<TexCoords left="0.53125" right="1.0" top="0.3828125" bottom="1.0"/>
+								</Texture>
+							</Layer>
+						</Layers>
+						<Scripts>
+							<OnVerticalScroll>
+								FauxScrollFrame_OnVerticalScroll(self, offset, GEARSET_ICON_ROW_HEIGHT, GearManagerDialogPopup_Update);
+							</OnVerticalScroll>
+						</Scripts>
+					</ScrollFrame>				
+					<EditBox name="$parentEditBox" letters="16" historyLines="0" autoFocus="true">
+						<Size x="182" y="20"/>
+						<Anchors>
+							<Anchor point="TOPLEFT">
+								<Offset x="29" y="-35"/>
+							</Anchor>
+						</Anchors>
+						<Layers>
+							<Layer level="BACKGROUND">
+								<Texture name="$parentLeft" file="Interface\ClassTrainerFrame\UI-ClassTrainer-FilterBorder">
+									<Size x="12" y="29"/>
+									<Anchors>
+										<Anchor point="TOPLEFT">
+											<Offset x="-11" y="0"/>
+										</Anchor>
+									</Anchors>
+									<TexCoords left="0" right="0.09375" top="0" bottom="1.0"/>
+								</Texture>
+								<Texture name="$parentMiddle" file="Interface\ClassTrainerFrame\UI-ClassTrainer-FilterBorder">
+									<Size x="175" y="29"/>
+									<Anchors>
+										<Anchor point="LEFT" relativeTo="$parentLeft" relativePoint="RIGHT"/>
+									</Anchors>
+									<TexCoords left="0.09375" right="0.90625" top="0" bottom="1.0"/>
+								</Texture>
+								<Texture name="$parentRight" file="Interface\ClassTrainerFrame\UI-ClassTrainer-FilterBorder">
+									<Size x="12" y="29"/>
+									<Anchors>
+										<Anchor point="LEFT" relativeTo="$parentMiddle" relativePoint="RIGHT"/>
+									</Anchors>
+									<TexCoords left="0.90625" right="1.0" top="0" bottom="1.0"/>
+								</Texture>
+							</Layer>
+						</Layers>
+						<Scripts>
+							<OnTextChanged>
+								local text = self:GetText();
+								if ( text ~= "" ) then
+									GearManagerDialogPopup.name = text;
+								else
+									GearManagerDialogPopup.name = nil;
+								end
+								
+								GearManagerDialogPopupOkay_Update();
+							</OnTextChanged>
+							<OnEscapePressed function="GearManagerDialogPopupCancel_OnClick"/>
+							<OnEnterPressed>
+								if ( GearManagerDialogPopupOkay:IsEnabled() ~= 0 ) then
+									GearManagerDialogPopupOkay:Click();
+								end
+							</OnEnterPressed>
+						</Scripts>
+						<FontString inherits="ChatFontNormal"/>
+					</EditBox>	
+					<Button name="$parentCancel" inherits="UIPanelButtonTemplate" text="CANCEL">
+						<Size x="78" y="22"/>
+						<Anchors>
+							<Anchor point="BOTTOMRIGHT">
+								<Offset x="-11" y="13"/>
+							</Anchor>
+						</Anchors>
+						<Scripts>
+							<OnClick>
+								GearManagerDialogPopupCancel_OnClick(self, button, pushed);
+								PlaySound("gsTitleOptionOK");
+							</OnClick>
+						</Scripts>
+					</Button>					
+					<Button name="$parentOkay" inherits="UIPanelButtonTemplate" text="OKAY">
+						<Size x="78" y="22"/>
+						<Anchors>
+							<Anchor point="BOTTOMRIGHT" relativeTo="$parentCancel" relativePoint="BOTTOMLEFT">
+								<Offset x="-2" y="0"/>
+							</Anchor>
+						</Anchors>
+						<Scripts>
+							<OnClick>
+								GearManagerDialogPopupOkay_OnClick(self, button, pushed);
+								PlaySound("gsTitleOptionOK");
+							</OnClick>
+						</Scripts>
+					</Button>
+				</Frames>
+				<Scripts>
+					<OnLoad function="GearManagerDialogPopup_OnLoad"/>
+					<OnShow function="GearManagerDialogPopup_OnShow"/>
+					<OnHide function="GearManagerDialogPopup_OnHide"/>
+				</Scripts>				
+			</Frame>
+		</Frames>
+		<Scripts>
+			<OnLoad function="GearManagerDialog_OnLoad"/>
+			<OnShow function="GearManagerDialog_OnShow"/>
+			<OnHide function="GearManagerDialog_OnHide"/>
+			<OnEvent function="GearManagerDialog_OnEvent"/>
+		</Scripts>
+	</Frame>
+</Ui>
