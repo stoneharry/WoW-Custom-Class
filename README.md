@@ -139,7 +139,7 @@ Ah. Okay time to work out how I've managed to break the Blizzlike classes while 
 
 ## 2019-02-13 ##
 
-I have not worked on this project for a while. Instead I have been spending my free time working on my Spell Editor project. While working on that I discovered that my structure for the `SpellRaceClassInfo.dbc` was wrong:
+I have not worked on this project for a while. Instead I have been spending my free time working on my Spell Editor project. While working on that I discovered that my structure for the `SkillRaceClassInfo.dbc` was wrong:
 
 ![Spell Editor error on SkillRaceClassInfo](https://i.imgur.com/kfQ1tZK.png)
 
