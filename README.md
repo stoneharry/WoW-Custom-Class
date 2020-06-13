@@ -157,4 +157,14 @@ uint SkillCostIndex
 
 This explains why my custom class was not behaving as expected. 
 
+## 2020-06-13 ##
+
+As you might have guessed, this is a project I stopped working on a long time ago. I have been experimenting with a custom class for another project I am working on. I am using my spell editor to do all the DBC editing as it now supports importing and exporting of any DBC to and from SQL.
+
+I can ran a simple query to add all skills to my custom class:
+```sql
+UPDATE SkillRaceClassInfo SET classMask = classMask + 2048 WHERE NOT (2048 & classMask)
+```
+
+![Custom class working](https://i.imgur.com/q2UC8A4.png)
 
